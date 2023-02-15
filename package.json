@@ -5,10 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "watch:sass": "node-sass src/assets/sass/main.scss src/assets/css/app.css -w",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "node-sass": "^8.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.1"
