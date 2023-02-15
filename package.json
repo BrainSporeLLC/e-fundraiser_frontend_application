@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "watch:sass": "node-sass src/assets/sass/main.scss src/assets/css/app.css -w",
+    "dev": "vite watch:sass",
     "build": "vite build",
     "preview": "vite preview"
   },
