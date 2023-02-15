@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const App = () => {
   return (
-    <div>E-Fund Raiser</div>
-  )
-}
+    <div>
+      <h1 className="heading__primary">E-Fund Raiser</h1>
+    </div>
+  );
+};
 
-export default App
+export default App;
