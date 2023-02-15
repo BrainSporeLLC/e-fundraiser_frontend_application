@@ -25,7 +25,13 @@ const app = createBrowserRouter(
       element={<RaiseFunds/>}
       path='raisefunds'
       />
-
+      <Route
+      element={<Testimonies/>}
+      path='testimonies'
+      />
+      <Route
+      
+      />
     </Route>
   )
 )
