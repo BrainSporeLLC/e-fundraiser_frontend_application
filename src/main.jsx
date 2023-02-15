@@ -9,6 +9,9 @@ import {
   createRoutesFromElements 
 } from 'react-router-dom'
 import ErrorElementPAge from './pages/ErrorElementPAge'
+import RaiseFunds from './routes/RaiseFunds'
+import Testimonies from './routes/Testimonies'
+
 
 const app = createBrowserRouter(
   createRoutesFromElements(
