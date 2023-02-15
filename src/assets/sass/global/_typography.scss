@@ -1,11 +1,14 @@
 .heading{
     &__primary{
         font-size: 2.5rem;
+        font-weight: 800;
     }
     &__secondary{
-
+        font-size: 2.0rem;
+        font-weight: 600;
     }
     &__tertiary{
-
+        font-size: 1.5rem;
+        font-weight: 400;
     }
 }
