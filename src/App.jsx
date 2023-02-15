@@ -1,4 +1,5 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 
 const App = () => {
   return (
@@ -7,6 +8,10 @@ const App = () => {
       <h2 className="heading__secondary">We are your best online fundraising patners</h2>
       <h3 className="heading_tertiary">Tried and tested</h3>
       <p>a hand that giveth is the hand that receiveth</p>
+
+      <section>
+        <Outlet />
+      </section>
     </div>
   );
 };
