@@ -30,8 +30,10 @@ const app = createBrowserRouter(
       path='testimonies'
       />
       <Route
-      
+      element={<Reads/>}
+      path='resources'
       />
+      
     </Route>
   )
 )
