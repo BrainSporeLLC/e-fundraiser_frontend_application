@@ -5,7 +5,7 @@ const ErrorElementPAge = () => {
   return (
     <div>
         <h1>Error</h1>
-        <p>We are regret to see you running into an error!</p>
+        <p>We regret to see you run into an error!</p>
         <p>{error.statusText || error.message}</p>
     </div>
   )
