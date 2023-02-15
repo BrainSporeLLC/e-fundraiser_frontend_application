@@ -33,7 +33,10 @@ const app = createBrowserRouter(
       element={<Reads/>}
       path='resources'
       />
-      
+      <Route
+      element={<Login/>}
+      path='login'
+      />
     </Route>
   )
 )
