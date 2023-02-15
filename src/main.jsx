@@ -7,6 +7,7 @@ import {
   createBrowserRouter, 
   createRoutesFromElements 
 } from 'react-router-dom'
+import ErrorElementPAge from './pages/ErrorElementPAge'
 
 const app = createBrowserRouter(
   createRoutesFromElements(
