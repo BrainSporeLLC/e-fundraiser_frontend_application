@@ -8,7 +8,7 @@ html{
     margin: 0;
     padding: 0;
     box-sizing: inherit !important;
-    color: #{$primary-text-color};
+    color: var(--primary-text-color);
 }
 body{
     background-color:var(--background-color);
