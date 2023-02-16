@@ -13,6 +13,7 @@ import RaiseFunds from './routes/RaiseFunds'
 import Testimonies from './routes/Testimonies'
 import Reads from './routes/Reads'
 import Login from './routes/Login'
+import Homepage from './pages/Homepage'
 
 const app = createBrowserRouter(
   createRoutesFromElements(
@@ -21,6 +22,9 @@ const app = createBrowserRouter(
     element={<App/>}
     errorElement={<ErrorElementPAge/>}
     >
+      <Route 
+      element={<Homepage />}
+      />
       <Route
       element={<RaiseFunds/>}
       path='raisefunds'
