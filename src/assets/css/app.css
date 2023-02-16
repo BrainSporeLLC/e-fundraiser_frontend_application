@@ -42,3 +42,6 @@ p {
 
 nav {
   background-color: var(--nav-background-color); }
+
+footer {
+  background-color: var(--footer-background-color); }
