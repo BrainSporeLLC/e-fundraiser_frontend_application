@@ -10,7 +10,7 @@ const App = () => {
       <section>
         <Outlet />
       </section>
-      <Footer
+      <Footer />
     </>
   );
 };
