@@ -37,6 +37,7 @@ p {
 :root {
   --background-color: hsla(0, 100%, 16%, 0.174);
   --nav-background-color: #0c2344;
+  --footer-background-color: hsl(128, 100%, 3%);
   --primary-text-color: hsl(0, 0%, 96%); }
 
 nav {
