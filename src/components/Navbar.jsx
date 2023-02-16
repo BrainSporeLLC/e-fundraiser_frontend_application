@@ -5,6 +5,7 @@ const Navbar = () => {
   return (
     <nav>
         <NavLink to='/'>e-fundraiser</NavLink>
+        <NavLink to='raisefunds'>raise funds</NavLink>
     </nav>
   )
 }
