@@ -11,6 +11,7 @@ html {
   color: var(--primary-text-color); }
 
 body {
+  background-image: linear-gradient(to bottom, orange, black), url("../../images/successful-fundraiser.jpg");
   margin: 0;
   padding: 0; }
 
@@ -46,4 +47,4 @@ footer {
   background-color: var(--footer-background-color); }
 
 section {
-  background-image: url("../../images/successful-fundraiser.jpg"); }
+  background-image: linear-gradient(to bottom, orange, black), url("../../images/successful-fundraiser.jpg"); }
