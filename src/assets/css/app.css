@@ -36,4 +36,5 @@ p {
 
 :root {
   --background-color:hsl(300, 100%, 16%);
+  --nav-background-color: hsl(20, 100%, 16%);
   --primary-text-color: hsl(0, 0%, 96%); }
