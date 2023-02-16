@@ -24,6 +24,7 @@ const app = createBrowserRouter(
     >
       <Route 
       element={<Homepage />}
+      index
       />
       <Route
       element={<RaiseFunds/>}
