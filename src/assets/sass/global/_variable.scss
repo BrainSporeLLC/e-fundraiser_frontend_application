@@ -1,13 +1,12 @@
 // Color:
-$primary-color: hsl(300, 100%, 16%);
+$primary-color: hsl(128, 100%, 3%);
 $secondary-color: hsl(0, 0%, 96%);
 $tertiary-color: hsl(0, 11%, 18%);
 
 :root{
     // BACKGROUNDS
-    --background-color: hsl(300, 100%, 16%);
+    --background-color: hsla(0, 100%, 16%, 0.174);
     --nav-background-color: #0c2344;
-    //#01a218;
 
     // TEXT COLORS
     --primary-text-color: hsl(0, 0%, 96%);

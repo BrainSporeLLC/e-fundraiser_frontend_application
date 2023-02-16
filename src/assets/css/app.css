@@ -35,7 +35,7 @@ p {
   margin-top: 0; }
 
 :root {
-  --background-color: hsl(300, 100%, 16%);
+  --background-color: hsla(0, 100%, 16%, 0.174);
   --nav-background-color: #0c2344;
   --primary-text-color: hsl(0, 0%, 96%); }
 
