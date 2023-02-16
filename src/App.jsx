@@ -4,6 +4,9 @@ import { Outlet } from "react-router-dom";
 const App = () => {
   return (
     <>
+      <header>
+        
+      </header>
       <section>
         <Outlet />
       </section>
