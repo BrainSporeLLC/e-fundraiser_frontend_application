@@ -45,3 +45,6 @@ nav {
 
 footer {
   background-color: var(--footer-background-color); }
+
+section {
+  background-image: url("../../images/successful-fundraiser.jpg"); }
