@@ -5,8 +5,9 @@ $tertiary-color: hsl(0, 11%, 18%);
 
 :root{
     // BACKGROUNDS
-    --background-color: #0c2344;
-    --nav-background-color: #01a218;
+    --background-color: hsl(300, 100%, 16%);
+    --nav-background-color: #0c2344;
+    //#01a218;
 
     // TEXT COLORS
     --primary-text-color: hsl(0, 0%, 96%);

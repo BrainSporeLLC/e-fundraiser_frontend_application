@@ -35,8 +35,8 @@ p {
   margin-top: 0; }
 
 :root {
-  --background-color: #0c2344;
-  --nav-background-color: #01a218;
+  --background-color: hsl(300, 100%, 16%);
+  --nav-background-color: #0c2344;
   --primary-text-color: hsl(0, 0%, 96%); }
 
 nav {
