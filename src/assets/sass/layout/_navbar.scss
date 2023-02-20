@@ -2,6 +2,7 @@ nav{
     background-color: var(--nav-background-color);
     a{
         text-decoration: none;
-        font-size: var(--medium);
+        font-size: var(--small);
+        display: block;
     }
 }

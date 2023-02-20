@@ -46,7 +46,8 @@ nav {
   background-color: var(--nav-background-color); }
   nav a {
     text-decoration: none;
-    font-size: var(--medium); }
+    font-size: var(--small);
+    display: block; }
 
 footer {
   background-color: var(--footer-background-color); }
