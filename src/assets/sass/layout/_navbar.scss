@@ -5,11 +5,14 @@ nav {
     grid-template-columns: 2fr 2fr;
     padding-top:var(--padding-medium) ;
     padding-bottom:var(--padding-medium) ;
+    div.navLogo{
+        margin-left: var();
+    }
     div.menus{
         display: flex;
         flex-direction: row;
         justify-content: end;
-        margin-right: var(--padding-small);
+        margin-right: var(--small-mergin);
         a {
             text-decoration: none;
             font-size: var(--small);
