@@ -41,7 +41,7 @@ p {
 
 nav {
   background-color: var(--nav-background-color); }
-  nava {
+  nav a {
     text-decoration: none; }
 
 footer {
