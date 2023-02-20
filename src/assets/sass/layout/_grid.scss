@@ -1,6 +1,14 @@
-.screen{
+.screen {
     display: grid;
-    &__one{
+
+    &__one {
         grid-template-rows: auto;
+    }
+
+    &__halfs {
+        grid-template-columns: 4fr 4fr;
+    }
+    &__athird{
+        grid-template-columns: 3fr 5fr;
     }
 }
