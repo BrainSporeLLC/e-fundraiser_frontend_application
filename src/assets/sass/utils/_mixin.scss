@@ -1,3 +1,8 @@
-@mixin homePageBackground($imagepath, $position: 0 0, $repeate: no-repeate){
+@mixin homePageBackground($imagepath, $position: 0 0, $repeat: no-repeate){
+    background: {
+        image: url($imagepath);
+        position: $position;
+        repeat: $repeat;
+    }
 
 }
