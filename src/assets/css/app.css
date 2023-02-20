@@ -42,9 +42,6 @@ p {
 nav {
   background-color: var(--nav-background-color); }
 
-a {
-  text-decoration: none; }
-
 footer {
   background-color: var(--footer-background-color); }
 
