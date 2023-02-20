@@ -3,7 +3,7 @@ nav {
     background-color: var(--nav-background-color);
     display: grid;
     grid-template-columns: 2fr 2fr;
-    padding-top:4rem ;
+    padding-top:var(--padding-mi) ;
     div.menus{
         background-color: #000000;
         display: flex;
