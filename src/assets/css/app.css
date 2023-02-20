@@ -58,7 +58,7 @@ nav {
   padding-top: var(--padding-medium);
   padding-bottom: var(--padding-medium); }
   nav div.navLogo {
-    margin-left: var(); }
+    margin-left: var(--small-mergin); }
   nav div.menus {
     display: flex;
     flex-direction: row;
