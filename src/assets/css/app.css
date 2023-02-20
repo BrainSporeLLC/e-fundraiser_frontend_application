@@ -42,11 +42,8 @@ p {
   --medium: 2.4rem;
   --small: 1.2rem;
   --large-margin:4rem;
-  --medium-medium:2rem
-    --small-mergin: 1rem
-
-
-; }
+  --medium-medium:2rem;
+  --small-mergin: 1rem; }
 
 nav {
   background-color: var(--nav-background-color);
@@ -59,7 +56,7 @@ nav {
       text-decoration: none;
       font-size: var(--small);
       display: block;
-      margin-left: 2rem; }
+      margin-left: var(--medium-medium); }
 
 footer {
   background-color: var(--footer-background-color); }
