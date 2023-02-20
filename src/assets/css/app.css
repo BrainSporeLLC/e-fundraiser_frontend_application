@@ -57,7 +57,7 @@ section {
 
 .screen {
   display: grid; }
-  .screen__one {
+  .screen .screen__one {
     grid-template-rows: auto; }
   .screen__halfs {
     grid-template-columns: 4fr 4fr; }
