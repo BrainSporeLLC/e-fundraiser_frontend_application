@@ -46,10 +46,13 @@ nav {
   background-color: var(--nav-background-color);
   display: grid;
   grid-template-columns: 2fr 4fr; }
-  nav div a {
-    text-decoration: none;
-    font-size: var(--small);
-    display: block; }
+  nav div.menus {
+    display: flex;
+    flex-direction: row; }
+    nav div.menus a {
+      text-decoration: none;
+      font-size: var(--small);
+      display: block; }
 
 footer {
   background-color: var(--footer-background-color); }

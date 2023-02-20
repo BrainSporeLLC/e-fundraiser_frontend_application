@@ -3,8 +3,9 @@ nav {
     display: grid;
     grid-template-columns: 2fr 4fr;
 
-    div{
-
+    div.menus{
+        display: flex;
+        flex-direction: row;
         a {
             text-decoration: none;
             font-size: var(--small);
