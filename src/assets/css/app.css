@@ -52,7 +52,8 @@ nav {
     nav div.menus a {
       text-decoration: none;
       font-size: var(--small);
-      display: block; }
+      display: block;
+      margin-left: var(); }
 
 footer {
   background-color: var(--footer-background-color); }
