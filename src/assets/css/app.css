@@ -41,9 +41,9 @@ p {
   --large: 3.6rem;
   --medium: 2.4rem;
   --small: 1.2rem;
-  --margin-large:4rem;
+  --large-margin:4rem;
   --medium-medium:2rem
-    --margin-small: 1rem
+    --small-mergin: 1rem
 
 
 ; }
@@ -59,7 +59,7 @@ nav {
       text-decoration: none;
       font-size: var(--small);
       display: block;
-      margin-left: var(--margin-small); }
+      margin-left: 2rem; }
 
 footer {
   background-color: var(--footer-background-color); }
