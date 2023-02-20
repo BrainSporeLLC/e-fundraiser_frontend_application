@@ -7,6 +7,9 @@ nav {
     padding-bottom:var(--padding-medium) ;
     div.navLogo{
         margin-left: var(--small-mergin);
+        a{
+            text-decoration: none;
+        }
     }
     div.menus{
         display: flex;
