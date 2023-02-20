@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="screen__halfs">
       <div className="navLogo">
         <NavLink to="/">e-fundraiser</NavLink>
       </div>
