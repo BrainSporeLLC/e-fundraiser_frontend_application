@@ -1,4 +1,6 @@
 .screen{
     display: grid;
-    
+    &__one{
+        grid-template-rows: auto;
+    }
 }
