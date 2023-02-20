@@ -3,7 +3,7 @@ nav {
     background-color: var(--nav-background-color);
     display: grid;
     grid-template-columns: 4fr 4fr;
-    padding: var();
+    padding: var(--padding-medium) var(----padding-small);
 
     div.menus{
         display: flex;
