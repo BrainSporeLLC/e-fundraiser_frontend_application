@@ -40,7 +40,13 @@ p {
   --primary-text-color: hsl(0, 0%, 96%);
   --large: 3.6rem;
   --medium: 2.4rem;
-  --small: 1.2rem; }
+  --small: 1.2rem;
+  --margin-large: 4rem;
+  --medium-medium: 2rem
+    --margin-small: 1rem
+
+
+; }
 
 nav {
   background-color: var(--nav-background-color);
@@ -53,7 +59,7 @@ nav {
       text-decoration: none;
       font-size: var(--small);
       display: block;
-      margin-left: var(); }
+      margin-left: var(--margin-small); }
 
 footer {
   background-color: var(--footer-background-color); }
