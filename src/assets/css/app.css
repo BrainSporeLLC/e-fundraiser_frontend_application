@@ -30,19 +30,23 @@ body {
   margin-top: 0; }
 
 p {
-  font-size: 1rem;
+  font-size: var(--small);
   margin-top: 0; }
 
 :root {
   --background-color: hsla(0, 100%, 16%, 0.174);
   --nav-background-color: hsl(215, 70%, 16%);
   --footer-background-color: hsl(187, 100%, 16%);
-  --primary-text-color: hsl(0, 0%, 96%); }
+  --primary-text-color: hsl(0, 0%, 96%);
+  --large: 3.6rem;
+  --medium: 2.4rem;
+  --small: 1.2rem; }
 
 nav {
   background-color: var(--nav-background-color); }
-  nav a {
-    text-decoration: none; }
+  nav nav a {
+    text-decoration: none;
+    font-size: var(--medium); }
 
 footer {
   background-color: var(--footer-background-color); }
