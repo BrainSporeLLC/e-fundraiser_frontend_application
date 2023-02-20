@@ -44,7 +44,7 @@ p {
 
 nav {
   background-color: var(--nav-background-color); }
-  nav nav a {
+  nav a {
     text-decoration: none;
     font-size: var(--medium); }
 
