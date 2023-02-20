@@ -45,6 +45,3 @@ nav {
 
 footer {
   background-color: var(--footer-background-color); }
-
-section {
-  background-image: linear-gradient(to bottom, orange, black), homePageBackground; }
