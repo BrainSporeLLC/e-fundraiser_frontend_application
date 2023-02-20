@@ -3,7 +3,7 @@ $primary-color: hsl(128, 100%, 3%);
 $secondary-color: hsl(0, 0%, 96%);
 $tertiary-color: hsl(0, 11%, 18%);
 
-:root{
+:root {
     // BACKGROUNDS
     --background-color: hsla(0, 100%, 16%, 0.174);
     --nav-background-color: hsl(215, 70%, 16%);
@@ -11,11 +11,11 @@ $tertiary-color: hsl(0, 11%, 18%);
 
     // TEXT COLORS
     --primary-text-color: hsl(0, 0%, 96%);
-    
+
+    // FONT SIZE
+    --large : 3.6rem;
+    --medium : 2.4rem;
+    --small : 1.2rem;
+
+
 }
-
-// FONT SIZE
-$large : 3.6rem;
-$medium : 2.4rem;
-$small : 1.2rem;
-
