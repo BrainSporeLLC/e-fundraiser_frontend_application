@@ -46,6 +46,5 @@ nav {
 footer {
   background-color: var(--footer-background-color); }
 
-@use '../utils/mixin' as mixin;
 section {
-  @i mixin.background('../../images/successful-fundraiser.jpg'); }
+  background-color: teal; }
