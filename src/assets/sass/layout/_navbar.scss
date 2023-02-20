@@ -1,6 +1,9 @@
-nav{
+nav {
     background-color: var(--nav-background-color);
-    a{
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+
+    a {
         text-decoration: none;
         font-size: var(--small);
         display: block;

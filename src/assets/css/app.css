@@ -43,7 +43,9 @@ p {
   --small: 1.2rem; }
 
 nav {
-  background-color: var(--nav-background-color); }
+  background-color: var(--nav-background-color);
+  display: grid;
+  grid-template-columns: 2fr 4fr; }
   nav a {
     text-decoration: none;
     font-size: var(--small);
