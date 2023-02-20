@@ -45,13 +45,17 @@ p {
   --small: 1.2rem;
   --large-margin:4rem;
   --medium-medium:2rem;
-  --small-mergin: 1rem; }
+  --small-mergin: 1rem;
+  --padding-small:1rem;
+  --padding-medium:2rem;
+  --padding-large:4rem; }
 
 nav {
   width: 100%;
   background-color: var(--nav-background-color);
   display: grid;
-  grid-template-columns: 4fr 4fr; }
+  grid-template-columns: 4fr 4fr;
+  padding: var(); }
   nav div.menus {
     display: flex;
     flex-direction: row;
