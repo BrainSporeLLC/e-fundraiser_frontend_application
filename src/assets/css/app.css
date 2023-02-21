@@ -39,9 +39,7 @@ p {
   --background-color: hsla(0, 100%, 16%, 0.174);
   --nav-background-color: hsl(215, 70%, 16%);
   --footer-background-color: hsl(187, 100%, 16%);
-  --primary-text-color: hsl(0, 0%, 96%);
-  --section-backgournd-image: '../../images/successful-fundraiser.jpg'
-; }
+  --primary-text-color: hsl(0, 0%, 96%); }
 
 nav {
   background-color: var(--nav-background-color); }
@@ -50,4 +48,4 @@ footer {
   background-color: var(--footer-background-color); }
 
 section {
-  background: linear-gradient(to bottom, rgba(255, 166, 0, 0.322), black), url("../../images/successful-fundraiser.jpg"); }
+  background-image: linear-gradient(to bottom, orange, black), url("../../images/successful-fundraiser.jpg"); }
