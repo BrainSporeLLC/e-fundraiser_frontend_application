@@ -57,10 +57,12 @@ nav {
   padding-bottom: var(--padding-medium);
   width: 100%; }
   nav div.navLogo {
-    margin-left: var(--small-mergin); }
+    margin-left: var(--small-mergin);
+    background-color: red; }
     nav div.navLogo a {
       text-decoration: none; }
   nav div.menus {
+    background-color: yellow;
     display: flex;
     flex-direction: row;
     justify-content: end;

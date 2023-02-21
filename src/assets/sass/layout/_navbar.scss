@@ -7,11 +7,13 @@ nav {
     width: 100%;
     div.navLogo{
         margin-left: var(--small-mergin);
+        background-color: red;
         a{
             text-decoration: none;
         }
     }
     div.menus{
+        background-color: yellow;
         display: flex;
         flex-direction: row;
         justify-content: end;
