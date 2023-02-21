@@ -6,7 +6,7 @@ nav {
     padding-bottom:var(--padding-medium) ;
     width: 100vw;
     div.navLogo{
-        margin-left: var(--small-mergin);
+        //margin-left: var(--small-mergin);
         a{
             text-decoration: none;
         }
@@ -14,13 +14,13 @@ nav {
     div.menus{
         //display: flex;
         //flex-direction: row;
-        justify-content: end;
-        margin-right: var(--small-mergin);
+        //justify-content: end;
+        //margin-right: var(--small-mergin);
         a {
             text-decoration: none;
             font-size: var(--small);
             display: block;
-            margin-left: var(--medium-medium);
+            //margin-left: var(--medium-medium);
         }
     }
     

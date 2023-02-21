@@ -56,18 +56,12 @@ nav {
   padding-top: var(--padding-medium);
   padding-bottom: var(--padding-medium);
   width: 100vw; }
-  nav div.navLogo {
-    margin-left: var(--small-mergin); }
-    nav div.navLogo a {
-      text-decoration: none; }
-  nav div.menus {
-    justify-content: end;
-    margin-right: var(--small-mergin); }
-    nav div.menus a {
-      text-decoration: none;
-      font-size: var(--small);
-      display: block;
-      margin-left: var(--medium-medium); }
+  nav div.navLogo a {
+    text-decoration: none; }
+  nav div.menus a {
+    text-decoration: none;
+    font-size: var(--small);
+    display: block; }
 
 footer {
   background-color: var(--footer-background-color); }
