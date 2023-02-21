@@ -7,7 +7,7 @@ html {
 *::after {
   margin: 0;
   padding: 0;
-  box-sizing: inherit !important;
+  box-sizing: border-box !important;
   color: var(--primary-text-color); }
 
 body {
@@ -63,8 +63,6 @@ nav {
       text-decoration: none; }
   nav div.menus {
     background-color: yellow;
-    display: flex;
-    flex-direction: row;
     justify-content: end;
     margin-right: var(--small-mergin); }
     nav div.menus a {
