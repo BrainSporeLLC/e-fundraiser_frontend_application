@@ -55,14 +55,12 @@ nav {
   grid-template-rows: auto !important;
   padding-top: var(--padding-medium);
   padding-bottom: var(--padding-medium);
-  width: 100%; }
+  width: 100vw; }
   nav div.navLogo {
-    margin-left: var(--small-mergin);
-    background-color: red; }
+    margin-left: var(--small-mergin); }
     nav div.navLogo a {
       text-decoration: none; }
   nav div.menus {
-    background-color: yellow;
     justify-content: end;
     margin-right: var(--small-mergin); }
     nav div.menus a {
