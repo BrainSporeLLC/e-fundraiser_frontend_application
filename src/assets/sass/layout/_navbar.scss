@@ -1,9 +1,10 @@
 nav {
     background-color: var(--nav-background-color);
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-rows: auto !important;
     padding-top:var(--padding-medium) ;
     padding-bottom:var(--padding-medium) ;
+    width: 100%;
     div.navLogo{
         margin-left: var(--small-mergin);
         a{
