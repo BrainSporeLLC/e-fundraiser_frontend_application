@@ -25,6 +25,9 @@ nav {
     .menus{
         display: flex !important;
         flex-direction: column !important;
+        a{
+            text-decoration: none !important;
+        }
     }
     .show-menu{
         display: flex;

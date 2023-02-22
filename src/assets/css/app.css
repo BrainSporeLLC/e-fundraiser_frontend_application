@@ -71,6 +71,8 @@ nav {
   nav .menus {
     display: flex !important;
     flex-direction: column !important; }
+    nav .menus a {
+      text-decoration: none !important; }
   nav .show-menu {
     display: flex; }
 
