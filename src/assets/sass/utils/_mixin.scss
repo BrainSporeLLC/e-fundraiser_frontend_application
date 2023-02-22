@@ -1,3 +1,11 @@
+// maps:
+$breakpoint-up:(
+    "small": 600px,
+    "medium": 900px,
+    "large": 1024px,
+    "xlarge": 1440px,
+);
+
 
 @mixin flexcustomdirection($direction, $justify, $align){
     display: flex !important;
