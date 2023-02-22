@@ -70,7 +70,6 @@ section {
   .screen__one {
     grid-template-rows: auto; }
   .screen__halfs {
-    display: grid;
     grid-template-columns: 4fr 4fr; }
   .screen__athird {
     grid-template-columns: 3fr 1fr; }

@@ -1,21 +1,23 @@
 .screen {
     display: grid;
 
-  &__one{
+    &__one {
         grid-template-rows: auto;
     }
 
     &__halfs {
-        display: grid;
         grid-template-columns: 4fr 4fr;
     }
-    &__athird{
+
+    &__athird {
         grid-template-columns: 3fr 1fr;
     }
-    &__reversethird{
+
+    &__reversethird {
         grid-template-columns: 5fr 3fr;
     }
-    &__threenormal{
+
+    &__threenormal {
         grid-template-columns: 3fr 3fr 3fr;
     }
 }
