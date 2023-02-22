@@ -70,6 +70,8 @@ nav {
       outline: none !important; }
   nav .menus {
     display: none; }
+  nav .show-menu {
+    display: flex; }
 
 footer {
   background-color: var(--footer-background-color); }
