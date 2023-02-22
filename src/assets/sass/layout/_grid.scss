@@ -1,7 +1,7 @@
 .screen {
     display: grid;
 
-  #{&}__one{
+  &__one{
         @extend .screen;
         grid-template-rows: auto;
     }
