@@ -94,4 +94,5 @@ footer {
   align-items: center; }
   .homepage * {
     width: 80%;
-    margin-inline: 0 !important; }
+    margin-inline: 0 !important;
+    margin-bottom: var(--small-mergin); }
