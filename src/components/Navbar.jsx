@@ -9,7 +9,7 @@ const Navbar = () => {
       </div>
       <div className="mobile-sidebar">
         <button>
-          <GoThreeBars/>
+          <GoThreeBars size={40}/>
         </button>
       </div>
       <div className="menus">
