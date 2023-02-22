@@ -1,9 +1,9 @@
 
 @mixin flexcustomdirection($direction, $justify, $align){
     display: flex;
-    flex-direction: $direction;
-    justify-content: $justify;
-    align-items: $align;
+    flex-direction: $direction !important;
+    justify-content: $justify !important;
+    align-items: $align !important;
 }
 
 @mixin fonts{
