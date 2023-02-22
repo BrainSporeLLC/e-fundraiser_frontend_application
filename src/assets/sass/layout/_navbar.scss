@@ -41,7 +41,7 @@ nav {
             display: none !important;
         }
         .menus{
-            display: flex !important;
+            @include util.flexcustomdirection(row, end, center);
     
             flex-direction: column !important;
             a{
