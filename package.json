@@ -4,17 +4,17 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "watch:sass": "node-sass src/assets/sass/main.scss src/assets/css/app.css -w",
+    "watch:sass": "sass src/assets/sass/main.scss src/assets/css/app.css -w",
     "dev": "vite ",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "node-sass": "^8.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
-    "react-router-dom": "^6.8.1"
+    "react-router-dom": "^6.8.1",
+    "sass": "^1.58.3"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
