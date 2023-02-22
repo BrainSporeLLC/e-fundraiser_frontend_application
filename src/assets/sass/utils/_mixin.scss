@@ -5,3 +5,7 @@
         repeat: $repeat;
     }
 }
+@mixin flexcustomdirection($direction){
+    display: flex;
+    flex-direction: $direction;
+}
