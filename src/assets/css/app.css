@@ -59,6 +59,8 @@ nav {
   nav .navLogo a {
     text-decoration: none;
     font-size: var(--medium); }
+  nav .mobile-sidebar button {
+    background-color: transparent !important; }
   nav .menus {
     display: none; }
 

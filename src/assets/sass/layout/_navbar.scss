@@ -11,6 +11,11 @@ nav {
         font-size: var(--medium);
        } 
     }
+    .mobile-sidebar{
+        button{
+            background-color: transparent !important;
+        }
+    }
     .menus{
         display: none;
     }
