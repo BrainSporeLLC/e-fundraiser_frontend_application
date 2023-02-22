@@ -15,4 +15,5 @@
 // // PAGES
 // @import './pages/home';
 
-@forward './global/index';
+@forward './global';
+@forward './layout'

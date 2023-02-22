@@ -1,1 +1,2 @@
-@forward './global/index';
+@forward './global';
+@forward './layout';
