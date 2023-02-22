@@ -12,7 +12,7 @@ nav {
        } 
     }
     .mobile-sidebar{
-        display: flex !important;
+        @include flexcustomdirection(row, end, center);
         
         button{
             background-color: transparent !important;
