@@ -11,3 +11,9 @@
     justify-content: $justify;
     align-items: $align;
 }
+
+@mixin fonts{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Sans Pro', sans-serif;
+}
