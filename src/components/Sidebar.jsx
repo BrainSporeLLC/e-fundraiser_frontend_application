@@ -4,13 +4,12 @@ import { GoThreeBars } from "react-icons/go";
 
 const Sidebar = () => {
   const [activateSidebar, setActiveSidebar] = useState(false);
-  const toggleSidebar = setActiveSidebar(!activateSidebar);
   return (
     <>
       <div>
-        <GoThreeBars />
+        <GoThreeBars onClick={setActiveSidebar(!activateSidebar)}/>
       </div>
-      {toggleSidebar ? (
+      {activateSidebar ? (
         <div className="menus">
           <NavLink to="raisefunds">raise funds</NavLink>
           <NavLink to="testimonies">testimonies</NavLink>
