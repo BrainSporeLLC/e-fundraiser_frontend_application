@@ -72,7 +72,8 @@ nav {
     display: flex !important;
     flex-direction: column !important; }
     nav .menus a {
-      text-decoration: none !important; }
+      text-decoration: none !important;
+      font-size: var(--medium); }
   nav .show-menu {
     display: flex; }
 
