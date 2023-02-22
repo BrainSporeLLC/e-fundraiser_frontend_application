@@ -7,7 +7,7 @@ const App = () => {
   const [sidabarNavVisible, setSidebarNavVisible] = useState(false);
   return (
     <>
-      <Navbar />
+      <Navbar visible={sidabarNavVisible} show={setSidebarNavVisible}/>
       <section>
         <Outlet />
       </section>
