@@ -1,10 +1,10 @@
 nav {
     background-color: var(--nav-background-color);
     display: grid;
-    grid-template-columns: 3fr 1fr !important;
+    grid-template-columns: 2fr 1fr !important;
     padding-top:var(--padding-medium) ;
     padding-bottom:var(--padding-medium);
-    padding-inline: var(--padding-small) ;
+    // padding-inline: var(--padding-small) ;
     width: 100vw;
     .navLogo{
        a{
@@ -15,7 +15,7 @@ nav {
     .mobile-sidebar{
         display: flex !important;
         flex-direction: row !important;
-        justify-content: end !important;
+        // justify-content: end !important;
         button{
             background-color: transparent !important;
             border: none !important;
@@ -24,7 +24,7 @@ nav {
     }
     .menus{
         display: none;
-        
+
         flex-direction: column !important;
         a{
             display: block !important;

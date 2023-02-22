@@ -51,18 +51,16 @@ p {
 nav {
   background-color: var(--nav-background-color);
   display: grid;
-  grid-template-columns: 3fr 1fr !important;
+  grid-template-columns: 2fr 1fr !important;
   padding-top: var(--padding-medium);
   padding-bottom: var(--padding-medium);
-  padding-inline: var(--padding-small);
   width: 100vw; }
   nav .navLogo a {
     text-decoration: none;
     font-size: var(--medium); }
   nav .mobile-sidebar {
     display: flex !important;
-    flex-direction: row !important;
-    justify-content: end !important; }
+    flex-direction: row !important; }
     nav .mobile-sidebar button {
       background-color: transparent !important;
       border: none !important;
