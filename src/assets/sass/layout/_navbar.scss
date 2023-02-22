@@ -23,9 +23,10 @@ nav {
         }
     }
     .menus{
-        display: none !important;
+        display: none;
         flex-direction: column !important;
         a{
+            display: block !important;
             text-decoration: none !important;
             font-size: var(--medium);
         }
