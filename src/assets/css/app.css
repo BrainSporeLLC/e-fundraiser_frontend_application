@@ -64,16 +64,3 @@ footer {
 
 section {
   background-color: teal; }
-
-.screen, .screen__one, .screen__halfs, .screen__athird, .screen__reversethird, .screen__threenormal {
-  display: grid; }
-  .screen__one {
-    grid-template-rows: auto; }
-  .screen__halfs {
-    grid-template-columns: 4fr 4fr; }
-  .screen__athird {
-    grid-template-columns: 3fr 1fr; }
-  .screen__reversethird {
-    grid-template-columns: 5fr 3fr; }
-  .screen__threenormal {
-    grid-template-columns: 3fr 3fr 3fr; }
