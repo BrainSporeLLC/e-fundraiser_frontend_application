@@ -45,25 +45,24 @@ nav {
     }
 
     @include util.breakpoints(large) {
-        nav {
-            grid-template-columns: 1fr 2fr !important;
+        grid-template-columns: 1fr 2fr !important;
 
-            .navLogo{
-                background-color: red;
-            }
-            .mobile-sidebar {
-                display: none !important;
-            }
+        .navLogo {
+            background-color: red;
+        }
 
-            .menus {
-                @include util.flexcustomdirection(row, end, center);
-                background-color: red;
+        .mobile-sidebar {
+            display: none !important;
+        }
 
-                a {
-                    text-decoration: none !important;
-                    font-size: var(--small) !important;
-                    margin-inline: var(--padding-small) !important;
-                }
+        .menus {
+            @include util.flexcustomdirection(row, end, center);
+            background-color: red;
+
+            a {
+                text-decoration: none !important;
+                font-size: var(--small) !important;
+                margin-inline: var(--padding-small) !important;
             }
         }
     }
