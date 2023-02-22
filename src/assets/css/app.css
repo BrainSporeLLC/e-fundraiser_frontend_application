@@ -60,7 +60,7 @@ nav {
     text-decoration: none; }
   nav div.menus a {
     text-decoration: none;
-    font-size: var(--small);
+    font-size: var(--medium);
     display: block; }
 
 footer {
