@@ -8,7 +8,9 @@ const Navbar = ({visible, show }) => {
         <NavLink to="/">e-fundraiser</NavLink>
       </div>
       <div className="mobile-sidebar">
-        <button>
+        <button
+        type=""
+        >
           <GoThreeBars size={40}/>
         </button>
       </div>
