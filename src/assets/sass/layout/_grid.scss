@@ -2,22 +2,27 @@
     display: grid;
 
     &__one {
+        @extend .screen;
         grid-template-rows: auto;
     }
 
     &__halfs {
+        @extend .screen;
         grid-template-columns: 4fr 4fr;
     }
 
     &__athird {
+        @extend .screen;
         grid-template-columns: 3fr 1fr;
     }
 
     &__reversethird {
+        @extend .screen;
         grid-template-columns: 5fr 3fr;
     }
 
     &__threenormal {
+        @extend .screen;
         grid-template-columns: 3fr 3fr 3fr;
     }
 }
