@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Sidebar from "./Sidebar";
 
 const Navbar = () => {
   return (
@@ -7,6 +8,7 @@ const Navbar = () => {
       <div className="navLogo">
         <NavLink to="/">e-fundraiser</NavLink>
       </div>
+      <Sidebar
       <div className="menus">
         <NavLink to="raisefunds">raise funds</NavLink>
         <NavLink to="testimonies">testimonies</NavLink>
