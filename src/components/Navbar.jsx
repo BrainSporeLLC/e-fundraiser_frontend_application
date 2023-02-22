@@ -1,11 +1,16 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+import { GoThreeBars } from "react-icons/go";
 const Navbar = () => {
   return (
     <nav>
       <div className="navLogo">
         <NavLink to="/">e-fundraiser</NavLink>
+      </div>
+      <div className="mobile-sidebar">
+        <button>
+          <GoThreeBars/>
+        </button>
       </div>
       <div className="menus">
         <NavLink to="raisefunds">raise funds</NavLink>
