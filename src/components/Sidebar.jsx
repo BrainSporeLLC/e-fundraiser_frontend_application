@@ -9,16 +9,6 @@ const Sidebar = () => {
       <div>
         <GoThreeBars onClick={setActiveSidebar(!activateSidebar)}/>
       </div>
-      {/* {activateSidebar ? (
-        <div className="menus">
-          <NavLink to="raisefunds">raise funds</NavLink>
-          <NavLink to="testimonies">testimonies</NavLink>
-          <NavLink to="resources">reads</NavLink>
-          <NavLink to="login">login</NavLink>
-        </div>
-      ) : (
-        ""
-      )} */}
     </>
   );
 };
