@@ -12,7 +12,8 @@ nav {
        } 
     }
     .mobile-sidebar{
-        
+        display: flex !important;
+        flex-direction: row !important;
         button{
             background-color: transparent !important;
             border: none !important;

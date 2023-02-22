@@ -59,10 +59,13 @@ nav {
   nav .navLogo a {
     text-decoration: none;
     font-size: var(--medium); }
-  nav .mobile-sidebar button {
-    background-color: transparent !important;
-    border: none !important;
-    outline: none !important; }
+  nav .mobile-sidebar {
+    display: flex !important;
+    flex-direction: row !important; }
+    nav .mobile-sidebar button {
+      background-color: transparent !important;
+      border: none !important;
+      outline: none !important; }
   nav .menus {
     display: none; }
 
