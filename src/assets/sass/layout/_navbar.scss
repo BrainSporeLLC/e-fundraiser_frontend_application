@@ -44,7 +44,7 @@ nav {
             @include util.flexcustomdirection(row, end, center);
             a{
                 text-decoration: none !important;
-                font-size: var(--small);
+                font-size: var(--medium) !important;
             }
         }
     }
