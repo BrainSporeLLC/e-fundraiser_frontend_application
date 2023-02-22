@@ -19,7 +19,7 @@
     }
     @include util.breakpoints(large){
         h1{
-
+            font-size: var(--large);
         }
     }
 }
