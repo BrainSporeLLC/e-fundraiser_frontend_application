@@ -9,7 +9,7 @@ $breakpoint-up:(
 
 // BREAKPOINT MEDIA QUERY:
 @mixin breakpoints($size){
-    @media (max-width: map-get($breakpoint-up, $size)){
+    @media (min-width: map-get($breakpoint-up, $size)){
         @content;
     }
 }
