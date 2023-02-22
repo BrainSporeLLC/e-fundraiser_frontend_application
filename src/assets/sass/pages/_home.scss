@@ -25,5 +25,9 @@
             @include util.textshadow;
             margin-bottom: var(--large-margin);
         }
+        p{
+            font-size: var(--medium);
+            font-weight: global.$normal;
+        }
     }
 }
