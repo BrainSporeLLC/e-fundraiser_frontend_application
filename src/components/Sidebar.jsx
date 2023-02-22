@@ -3,7 +3,7 @@ import { GoThreeBars} from "react-icons/go";
 
 const Sidebar = () => {
   return (
-    <div>Sidebar</div>
+    <div><GoThreeBars/></div>
   )
 }
 
