@@ -56,8 +56,8 @@ nav {
   padding-top: var(--padding-medium);
   padding-bottom: var(--padding-medium);
   padding-inline: var(--padding-small);
-  width: 100%;
-  overflow-x: hidden; }
+  width: auto !important;
+  overflow: hidden !important; }
   nav .navLogo a {
     text-decoration: none;
     font-size: var(--medium); }
