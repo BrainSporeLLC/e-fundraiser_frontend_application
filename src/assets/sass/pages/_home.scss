@@ -1,4 +1,5 @@
 @use '../utils/' as util;
+@use '../global/' as global;
 .homepage{
     background-image: linear-gradient(to bottom, #00140ada, #000b2bd4),url('../images/pexels-pixabay-210600(small).png');
     background-size: cover;
