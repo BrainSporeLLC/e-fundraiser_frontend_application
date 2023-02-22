@@ -7,6 +7,9 @@ $breakpoint-up:(
     "xlarge": 1440px,
 );
 
+// BREAKPOINT MEDIA QUERY:
+@mixin breakpoints($size)
+
 //DISPLAY FLEX
 @mixin flexcustomdirection($direction, $justify, $align){
     display: flex !important;
