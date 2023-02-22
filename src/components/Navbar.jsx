@@ -16,7 +16,7 @@ const Navbar = ({visible, show }) => {
         </Button>
       </div>
       <div 
-      className={ visible? "show-menu": "menu" }
+      className={ visible? "show-menu": "menus" }
       >
         <NavLink to="raisefunds">raise funds</NavLink>
         <NavLink to="testimonies">testimonies</NavLink>
