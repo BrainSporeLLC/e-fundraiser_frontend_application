@@ -69,7 +69,7 @@ nav {
       border: none !important;
       outline: none !important; }
   nav .menus {
-    display: flex !important;
+    display: none !important;
     flex-direction: column !important; }
     nav .menus a {
       text-decoration: none !important;
