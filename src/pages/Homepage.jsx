@@ -1,5 +1,5 @@
 import React from "react";
-
+import OpeningQuote from '../assets/svgs/opening.svg';
 const Homepage = () => {
   return (
     <div className="homepage">
