@@ -18,6 +18,8 @@
         text-align: end;
     }
     @include util.breakpoints(large){
-        
+        h1{
+
+        }
     }
 }
