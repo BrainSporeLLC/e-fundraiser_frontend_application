@@ -11,7 +11,7 @@ const Homepage = () => {
         >
           A hand that giveth is the hand that receiveth
         </blockquote>
-        <cite>Bible, Act 20&colon;35</cite>
+        <cite>Bible, Act 20:35</cite>
     </div>
   );
 };
