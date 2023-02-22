@@ -37,6 +37,8 @@ nav {
         display: flex;
     }
     @include util.breakpoints(large){
-        
+        .mobile-sidebar{
+            display: none !important;
+        }
     }
 }
