@@ -5,6 +5,7 @@ nav {
     padding-top:var(--padding-medium) ;
     padding-bottom:var(--padding-medium);
     padding-inline: var(--padding-small) ;
+    width: 100%;
     overflow-x: hidden;
     .navLogo{
        a{
@@ -15,7 +16,7 @@ nav {
     .mobile-sidebar{
         display: flex !important;
         flex-direction: row !important;
-        // justify-content: end !important;
+        justify-content: end !important;
         button{
             background-color: transparent !important;
             border: none !important;
