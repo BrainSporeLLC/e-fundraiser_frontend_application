@@ -1,8 +1,8 @@
-@use '../utils/font';
+@use '../utils/font' as f;
 html{
     font-size: 100% !important;
     box-sizing: border-box;
-    @include font;
+    @include f.fonts;
 }
 *,
 *::before,
