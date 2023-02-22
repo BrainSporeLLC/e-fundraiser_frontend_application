@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { GoThreeBars } from "react-icons/go";
-const Navbar = () => {
+const Navbar = ({visible, show }) => {
   return (
     <nav>
       <div className="navLogo">
