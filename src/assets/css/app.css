@@ -52,7 +52,7 @@ p {
 nav {
   background-color: var(--nav-background-color);
   display: grid;
-  grid-template-rows: auto !important;
+  grid-template-columns: 3fr 1fr !important;
   padding-top: var(--padding-medium);
   padding-bottom: var(--padding-medium);
   width: 100vw; }
