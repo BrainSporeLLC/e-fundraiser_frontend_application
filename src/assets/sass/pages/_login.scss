@@ -1,0 +1,20 @@
+.login {
+    background-image: linear-gradient(to bottom, #002211c4, #001144d0),url('../images/successful-fundraiser.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    // background-position: center;
+    
+    *{
+        width: 80%;
+        margin-inline: 0 !important;
+        margin-bottom: var(--small-mergin);
+        line-height: 1.5;
+        letter-spacing: 1.2;
+    }
+}

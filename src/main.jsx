@@ -14,6 +14,7 @@ import Testimonies from './routes/Testimonies'
 import Reads from './routes/Reads'
 import Login from './routes/Login'
 import Homepage from './pages/Homepage'
+import Register from './routes/Register'
 
 const app = createBrowserRouter(
   createRoutesFromElements(
@@ -41,6 +42,10 @@ const app = createBrowserRouter(
       <Route
       element={<Login/>}
       path='login'
+      />
+      <Route
+      element={<Register/>}
+      path='register'
       />
     </Route>
   )
