@@ -2,8 +2,11 @@ import React from 'react'
 
 const Button = ({type='button', onClick, children}) => {
   return (
-    <button>
-        
+    <button
+    type={type}
+    onClick={onClick}
+    >
+        {children}
     </button>
   )
 }
