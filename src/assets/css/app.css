@@ -61,7 +61,8 @@ nav {
     font-size: var(--medium); }
   nav .mobile-sidebar {
     display: flex !important;
-    flex-direction: row !important; }
+    flex-direction: row !important;
+    justify-content: end !important; }
     nav .mobile-sidebar button {
       background-color: transparent !important;
       border: none !important;
