@@ -65,15 +65,15 @@ footer {
 section {
   background-color: teal; }
 
-.screen, .screen__one {
+.screen, .screen__one, .screen__athird {
   display: grid; }
   .screen__one {
     grid-template-rows: auto; }
-  .screen .screen__halfs, .screen__one .screen__halfs {
+  .screen .screen__halfs, .screen__one .screen__halfs, .screen__athird .screen__halfs {
     display: grid;
     grid-template-columns: 4fr 4fr; }
   .screen__athird {
-    grid-template-columns: 3fr 5fr; }
+    grid-template-columns: 3fr 1fr; }
   .screen__reversethird {
     grid-template-columns: 5fr 3fr; }
   .screen__threenormal {
