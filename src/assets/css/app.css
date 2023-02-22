@@ -65,11 +65,11 @@ footer {
 section {
   background-color: teal; }
 
-.screen, .screen__one, .screen__athird {
+.screen {
   display: grid; }
   .screen__one {
     grid-template-rows: auto; }
-  .screen .screen__halfs, .screen__one .screen__halfs, .screen__athird .screen__halfs {
+  .screen__halfs {
     display: grid;
     grid-template-columns: 4fr 4fr; }
   .screen__athird {
