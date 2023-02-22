@@ -43,7 +43,6 @@ nav {
         .menus{
             @include util.flexcustomdirection(row, end, center);
             a{
-                display: block !important;
                 text-decoration: none !important;
                 font-size: var(--small);
             }
