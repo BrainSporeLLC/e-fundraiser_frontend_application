@@ -23,7 +23,8 @@ nav {
         }
     }
     .menus{
-        display: none;
+        display: flex !important;
+        flex-direction: column !important;
     }
     .show-menu{
         display: flex;
