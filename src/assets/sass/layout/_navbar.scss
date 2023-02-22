@@ -5,6 +5,11 @@ nav {
     padding-top:var(--padding-medium) ;
     padding-bottom:var(--padding-medium) ;
     width: 100vw;
+    .navLogo{
+       a{
+        text-decoration: none;
+       } 
+    }
     .menus{
         display: none;
     }
