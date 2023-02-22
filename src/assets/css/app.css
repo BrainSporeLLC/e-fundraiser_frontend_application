@@ -79,3 +79,6 @@ nav {
 
 footer {
   background-color: var(--footer-background-color); }
+
+.homepage {
+  background-color: red; }
