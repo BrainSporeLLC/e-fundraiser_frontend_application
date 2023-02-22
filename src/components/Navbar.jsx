@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { GoThreeBars } from "react-icons/go";
+import Button from "./Button";
 const Navbar = ({visible, show }) => {
   return (
     <nav>
@@ -8,11 +9,11 @@ const Navbar = ({visible, show }) => {
         <NavLink to="/">e-fundraiser</NavLink>
       </div>
       <div className="mobile-sidebar">
-        <button
+        <Button
         type=""
         >
           <GoThreeBars size={40}/>
-        </button>
+        </Button>
       </div>
       <div className="menus">
         <NavLink to="raisefunds">raise funds</NavLink>
