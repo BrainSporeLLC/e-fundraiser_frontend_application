@@ -52,10 +52,11 @@ p {
 nav {
   background-color: var(--nav-background-color);
   display: grid;
-  grid-template-columns: 2fr 1fr !important;
+  grid-template-columns: 1fr 1fr !important;
   padding-top: var(--padding-medium);
   padding-bottom: var(--padding-medium);
-  width: 100vw; }
+  padding-inline: var(--padding-small);
+  overflow-x: hidden; }
   nav .navLogo a {
     text-decoration: none;
     font-size: var(--medium); }
