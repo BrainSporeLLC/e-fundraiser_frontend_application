@@ -60,7 +60,8 @@ nav {
     text-decoration: none;
     font-size: var(--medium); }
   nav .menus {
-    display: none; }
+    display: none;
+    background-color: transparent; }
 
 footer {
   background-color: var(--footer-background-color); }
