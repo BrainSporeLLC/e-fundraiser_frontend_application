@@ -45,8 +45,8 @@ nav {
     }
 
     @include util.breakpoints(large) {
-        // nav {
-            // grid-template-columns: 1fr 2fr !important;
+        nav {
+            grid-template-columns: 1fr 2fr !important;
 
             .navLogo{
                 background-color: red;
@@ -66,5 +66,5 @@ nav {
                 }
             }
         }
-    // }
+    }
 }
