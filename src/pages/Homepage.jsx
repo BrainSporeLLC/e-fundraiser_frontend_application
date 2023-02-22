@@ -2,7 +2,7 @@ import React from "react";
 
 const Homepage = () => {
   return (
-    <div>
+    <div className='homepage'>
       <h1 className="heading__primary">E-Fund Raiser</h1>
       <h2 className="heading__secondary">
         We are your best online fundraising patners
