@@ -15,7 +15,9 @@ const Navbar = ({visible, show }) => {
           <GoThreeBars size={40}/>
         </Button>
       </div>
-      <div className="menus">
+      <div 
+      className={ visible ? " menu show-menu": "menu" }
+      >
         <NavLink to="raisefunds">raise funds</NavLink>
         <NavLink to="testimonies">testimonies</NavLink>
         <NavLink to="resources">reads</NavLink>
