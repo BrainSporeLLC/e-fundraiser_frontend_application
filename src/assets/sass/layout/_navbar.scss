@@ -40,5 +40,15 @@ nav {
         .mobile-sidebar{
             display: none !important;
         }
+        .menus{
+            display: none;
+    
+            flex-direction: column !important;
+            a{
+                display: block !important;
+                text-decoration: none !important;
+                font-size: var(--small);
+            }
+        }
     }
 }
