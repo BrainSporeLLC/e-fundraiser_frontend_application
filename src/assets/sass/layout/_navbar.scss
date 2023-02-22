@@ -1,55 +1,66 @@
 @use '../utils/' as util;
+
 nav {
     background-color: var(--nav-background-color);
     display: grid;
     grid-template-columns: 2fr 1fr !important;
-    padding-top:var(--padding-medium) ;
-    padding-bottom:var(--padding-medium);
-    padding-inline: var(--padding-small) ;
+    padding-top: var(--padding-medium);
+    padding-bottom: var(--padding-medium);
+    padding-inline: var(--padding-small);
     width: auto !important;
     overflow: hidden !important;
-    .navLogo{
-       a{
-        text-decoration: none;
-        font-size: var(--medium);
-       } 
+
+    .navLogo {
+        a {
+            text-decoration: none;
+            font-size: var(--medium);
+        }
     }
-    .mobile-sidebar{
+
+    .mobile-sidebar {
         @include util.flexcustomdirection(row, end, none);
-        button{
+
+        button {
             background-color: transparent !important;
             cursor: pointer;
             border: none !important;
             outline: none !important;
         }
     }
-    .menus{
+
+    .menus {
         display: none;
 
         flex-direction: column !important;
-        a{
+
+        a {
             display: block !important;
             text-decoration: none !important;
             font-size: var(--small);
         }
     }
-    .show-menu{
+
+    .show-menu {
         display: flex;
     }
-    @include util.breakpoints(large){
-        nav{
-            grid-template-columns: 2fr 2fr !important;
-        .mobile-sidebar{
-            display: none !important;
-        }
-        .menus{
-            @include util.flexcustomdirection(row, end, center);
-            a{
-                text-decoration: none !important;
-                font-size: var(--small) !important;
-                margin-inline: var(--padding-small) !important;
+
+    @include util.breakpoints(large) {
+        // nav {
+            // grid-template-columns: 1fr 2fr !important;
+
+            .mobile-sidebar {
+                display: none !important;
+            }
+
+            .menus {
+                @include util.flexcustomdirection(row, end, center);
+
+                a {
+                    text-decoration: none !important;
+                    font-size: var(--small) !important;
+                    margin-inline: var(--padding-small) !important;
+                }
             }
         }
-    }
-}
+    // }
 }
