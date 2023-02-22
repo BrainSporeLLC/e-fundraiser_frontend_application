@@ -25,7 +25,7 @@
             @include util.textshadow;
             margin-bottom: var(--large-margin);
         }
-        p{
+        blockquote{
             font-size: var(--medium);
             font-weight: global.$normal;
         }
