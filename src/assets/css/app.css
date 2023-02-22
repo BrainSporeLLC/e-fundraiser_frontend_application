@@ -82,4 +82,5 @@ footer {
 
 .homepage {
   background-image: url("../images/pexels-pixabay-210600.jpg");
-  background-size: contain; }
+  background-size: contain;
+  background-repeat: no-repeat; }
