@@ -37,6 +37,8 @@ nav {
         display: flex;
     }
     @include util.breakpoints(large){
+        nav{
+            grid-template-columns: 2fr 2fr !important;
         .mobile-sidebar{
             display: none !important;
         }
@@ -49,4 +51,5 @@ nav {
             }
         }
     }
+}
 }
