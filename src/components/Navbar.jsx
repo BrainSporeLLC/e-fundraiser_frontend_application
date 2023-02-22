@@ -10,7 +10,7 @@ const Navbar = ({visible, show }) => {
       </div>
       <div className="mobile-sidebar">
         <Button
-        type=""
+        onClick={ () => show(!visible)}
         >
           <GoThreeBars size={40}/>
         </Button>
