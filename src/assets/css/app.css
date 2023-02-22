@@ -75,7 +75,7 @@ nav {
     nav .menus a {
       display: block !important;
       text-decoration: none !important;
-      font-size: var(--medium); }
+      font-size: var(--small); }
   nav .show-menu {
     display: flex; }
 
