@@ -2,6 +2,7 @@
     display: grid;
 
   #{&}__one{
+        @extend .screen;
         grid-template-rows: auto;
     }
 

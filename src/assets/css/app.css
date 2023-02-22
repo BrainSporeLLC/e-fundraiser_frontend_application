@@ -65,7 +65,7 @@ footer {
 section {
   background-color: teal; }
 
-.screen {
+.screen, .screen .screen__one {
   display: grid; }
   .screen .screen__one {
     grid-template-rows: auto; }
