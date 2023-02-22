@@ -1,16 +1,18 @@
 // import globals
-@import 'global/boilerplate';
-@import 'global/typography';
-@import 'global/variable';
+// @import 'global/boilerplate';
+// @import 'global/typography';
+// @import 'global/variable';
 
-// LAYOUTS
-@import './layout/navbar';
-@import './layout/footer';
-@import './layout/section';
-@import './layout/grid';
+// // LAYOUTS
+// @import './layout/navbar';
+// @import './layout/footer';
+// @import './layout/section';
+// @import './layout/grid';
 
-// MIXINS
-@import './utils/font';
+// // MIXINS
+// @import './utils/font';
 
-// PAGES
-@import './pages/home';
+// // PAGES
+// @import './pages/home';
+
+@forward './global/index';
