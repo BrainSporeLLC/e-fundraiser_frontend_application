@@ -1,4 +1,4 @@
-@use '../utils/' as utils;
+@use '../utils/' as util;
 nav {
     background-color: var(--nav-background-color);
     display: grid;
@@ -15,6 +15,7 @@ nav {
        } 
     }
     .mobile-sidebar{
+        @include util.flexcustomdirection(row, end, none);
         display: flex !important;
         flex-direction: row !important;
         justify-content: end !important;
