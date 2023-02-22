@@ -56,13 +56,8 @@ nav {
   padding-top: var(--padding-medium);
   padding-bottom: var(--padding-medium);
   width: 100vw; }
-  nav div.navLogo a {
-    text-decoration: none;
-    font-size: var(--medium); }
-  nav div.menus a {
-    text-decoration: none;
-    font-size: var(--medium);
-    display: block; }
+  nav .menus {
+    display: none; }
 
 footer {
   background-color: var(--footer-background-color); }

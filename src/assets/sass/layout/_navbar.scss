@@ -5,24 +5,7 @@ nav {
     padding-top:var(--padding-medium) ;
     padding-bottom:var(--padding-medium) ;
     width: 100vw;
-    div.navLogo{
-        //margin-left: var(--small-mergin);
-        a{
-            text-decoration: none;
-            font-size: var(--medium);
-        }
+    .menus{
+        display: none;
     }
-    div.menus{
-        //display: flex;
-        //flex-direction: row;
-        //justify-content: end;
-        //margin-right: var(--small-mergin);
-        a {
-            text-decoration: none;
-            font-size: var(--medium);
-            display: block;
-            //margin-left: var(--medium-medium);
-        }
-    }
-    
 }
