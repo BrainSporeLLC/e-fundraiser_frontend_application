@@ -49,7 +49,7 @@ const Register = ({onChange}) => {
       >
         Confrim password
       </LabelWithInput>
-      <Button></Button>
+      <Button>Create account</Button>
     </FormComponent>
     </>
   )
