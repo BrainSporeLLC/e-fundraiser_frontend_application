@@ -27,13 +27,16 @@ const Login = ({ onChange, onClick }) => {
         type="submit"
         onClick={onClick}
         >
-          login
+          Login
         </Button>
       </FormComponent>
 
       <fieldset>
         <legend>or</legend>
+        <Button>Login with <Google>Google</Google></Button>
+        <Button>Login with <Miscrosoft>Miscrosoft</Miscrosoft></Button>
       </fieldset>
+
     </>
   );
 };
