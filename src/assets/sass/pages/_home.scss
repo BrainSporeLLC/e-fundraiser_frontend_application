@@ -82,7 +82,8 @@
         cite {
             font-weight: 100;
             background-color: global.$primary-color;
-            padding-bottom: var(--padding-small);
+            padding-bottom: var(--padding-medium);
+            padding-right: var(--padding-small);
         }
     }
 }
