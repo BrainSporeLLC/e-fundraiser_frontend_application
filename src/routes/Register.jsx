@@ -7,6 +7,22 @@ const Register = ({onChange}) => {
     <>
     <FormComponent method="POST">
       <LabelWithInput
+      type='text'
+      id='firstName'
+      name='firstName'
+      onChange={onchange}
+      >
+        First name
+      </LabelWithInput>
+      <LabelWithInput
+      type='text'
+      id='lastName'
+      name='lastName'
+      onChange={onchange}
+      >
+        Last name
+      </LabelWithInput>
+      <LabelWithInput
       type='email'
       id='username'
       name='username'
