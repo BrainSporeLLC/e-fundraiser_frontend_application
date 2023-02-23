@@ -1,21 +1,30 @@
-import React from 'react'
-import FormComponent from '../components/Form'
-import LabelWithInput from '../components/LabelWithInput'
+import React from "react";
+import FormComponent from "../components/Form";
+import LabelWithInput from "../components/LabelWithInput";
 
-const Login = ({onChange}) => {
+const Login = ({ onChange }) => {
   return (
     <>
       <FormComponent>
         <LabelWithInput
-        type='email'
-        id='username'
-        name='username'
-        onChange={onChange}
-        >Username</LabelWithInput>
-
+          type="email"
+          id="username"
+          name="username"
+          onChange={onChange}
+        >
+          Username
+        </LabelWithInput>
+        <LabelWithInput
+          type="email"
+          id="username"
+          name="username"
+          onChange={onChange}
+        >
+          Username
+        </LabelWithInput>
       </FormComponent>
     </>
-  )
-}
+  );
+};
 
-export default Login
+export default Login;
