@@ -3,7 +3,7 @@ import FormComponent from "../components/Form";
 import LabelWithInput from "../components/LabelWithInput";
 import Button from "../components/Button";
 
-const Login = ({ onChange }) => {
+const Login = ({ onChange, onClick }) => {
   return (
     <>
       <FormComponent method="POST">
