@@ -2,7 +2,7 @@ import React from 'react'
 import FormComponent from '../components/Form'
 import LabelWithInput from '../components/LabelWithInput'
 
-const Register = () => {
+const Register = ({onChange}) => {
   return (
     <>
     <FormComponent method="POST">
@@ -10,6 +10,7 @@ const Register = () => {
       type='email'
       id='username'
       name='username'
+      onChange={onchange}
       >
         Username
       </LabelWithInput>
