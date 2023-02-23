@@ -1,6 +1,7 @@
 import React from "react";
 import FormComponent from "../components/Form";
 import LabelWithInput from "../components/LabelWithInput";
+import Button from "../components/Button";
 
 const Login = ({ onChange }) => {
   return (
@@ -22,6 +23,11 @@ const Login = ({ onChange }) => {
         >
           password
         </LabelWithInput>
+        <Button
+        type="submit"
+        >
+          login
+        </Button>
       </FormComponent>
     </>
   );
