@@ -54,8 +54,14 @@ const Register = ({ onChange, onClick }) => {
       </FormComponent>
       <fieldset>
         <legend>or</legend>
-        <Button>Create account with Google</Button>
-        <Button>Create account with Facebook</Button>
+        <Button>
+          <FaGoogle width={50} hanging={50} />
+          Create account with Google
+        </Button>
+        <Button>
+          <FaFacebookF width={50} height={50} />
+          Create account with Facebook
+        </Button>
       </fieldset>
     </>
   );
