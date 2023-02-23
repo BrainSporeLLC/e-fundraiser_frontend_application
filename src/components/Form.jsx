@@ -1,14 +1,12 @@
-import React from 'react'
-import { Form } from 'react-router-dom';
+import React from "react";
+import { Form } from "react-router-dom";
 
-const FormComponent = ({children}) => {
+const FormComponent = ({ children }) => {
   return (
     <>
-      <Form>
-        {children}
-      </Form>
+      <Form>{children}</Form>
     </>
-  )
-}
+  );
+};
 
 export default FormComponent;
