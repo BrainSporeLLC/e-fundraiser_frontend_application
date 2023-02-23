@@ -46,7 +46,18 @@
         * {
             text-align: end !important;
         }
-
+        .center {
+            @include util.elementcenter(16%, var(--medium));
+            text-align: center !important;
+            background-color: global.$button-primary-color;
+            text-decoration: none;
+            font-weight: global.$bold;
+            padding-top: var(--padding-tiny);
+            padding-bottom: var(--padding-tiny);
+            margin-top: var(--medium-margin);
+            border-radius: .4rem;
+            box-shadow: .1rem .1rem .2rem .4rem rgba(0, 17, 34, 0.322);
+        }
         h1 {
             font-size: var(--large);
             font-weight: global.$bold;
