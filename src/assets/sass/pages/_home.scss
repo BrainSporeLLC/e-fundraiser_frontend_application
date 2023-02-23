@@ -29,7 +29,7 @@
         font-weight: global.$bold;
         padding-top: var(--padding-small);
         padding-bottom: var(--padding-small);
-        
+        border-radius: .4rem;
     }
     @include util.breakpoints(large){
         h1{
