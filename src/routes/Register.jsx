@@ -7,6 +7,7 @@ const Register = () => {
     <>
     <FormComponent method="POST">
       <LabelWithInput
+      type='email'
       
       >
         Username
