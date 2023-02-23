@@ -63,8 +63,12 @@
             font-weight: global.$thick;
 
             .openning-quote{
-
+                content: "\201C";
             }
+            .closing-quote{
+                content: "\201D";
+            }
+          .
         }
     }
 }
