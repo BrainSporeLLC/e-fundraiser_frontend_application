@@ -30,6 +30,10 @@ const Login = ({ onChange, onClick }) => {
           login
         </Button>
       </FormComponent>
+
+      <fieldset>
+        <legend>or</legend>
+      </fieldset>
     </>
   );
 };
