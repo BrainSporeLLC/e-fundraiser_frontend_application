@@ -34,7 +34,7 @@ $breakpoint-up:(
 }
 // BOX SHADOW
 @mixin boxshadow{
-    box-shadow: .1rem .1rem .2em .4em #012e;
+    box-shadow: -.1rem -.1rem -.2em -.4em #012e;
 }
 // CENTRE ELEMENTS
 @mixin elementcenter($width, $font){
