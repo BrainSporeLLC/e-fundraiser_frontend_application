@@ -13,6 +13,7 @@ const Login = ({ onChange, onClick }) => {
           id="username"
           name="username"
           onChange={onChange}
+          placeholder="e.g. someone@example.com"
         >
           Username
         </LabelWithInput>
