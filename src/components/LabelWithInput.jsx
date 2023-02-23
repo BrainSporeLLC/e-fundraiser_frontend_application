@@ -10,6 +10,7 @@ const LabelWithInput = ({ type = "text", id, name, onChange, placeholder='', chi
         name={name}
         onChange={onChange}
         aria-label={children}
+        placeholder={placeholder}
         required
       />
       <span aria-live="polite"></span>
