@@ -24,8 +24,8 @@ const Register = ({onChange}) => {
       </LabelWithInput>
       <LabelWithInput
       type='email'
-      id='username'
-      name='username'
+      id='email'
+      name='email'
       placeholder='e.g. someone@example.com'
       onChange={onchange}
       >
