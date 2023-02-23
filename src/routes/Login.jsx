@@ -2,7 +2,7 @@ import React from "react";
 import FormComponent from "../components/Form";
 import LabelWithInput from "../components/LabelWithInput";
 import Button from "../components/Button";
-import {FaFacebookF} from "react-icons/fa"
+import {FaFacebookF, FaGoogle} from "react-icons/fa"
 
 const Login = ({ onChange, onClick }) => {
   return (
