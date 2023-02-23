@@ -68,6 +68,8 @@
             margin-left: 50vw !important;
             padding-right: var(--padding-tiny);
             width: 26% !important;
+            border-top-left-radius: .4em !important;
+            border-top-right-radius:.4em !important; 
             @include util.boxshadow;
             
             .openning-quote {
