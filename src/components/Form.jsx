@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Form = ({onSubmit, children}) => {
+const FormComponent = ({onSubmit, children}) => {
   return (
     <>
-    
+      
     </>
   )
 }
 
-export default Form
+export default FormComponent;
