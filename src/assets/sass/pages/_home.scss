@@ -35,8 +35,8 @@
         background-color: global.$button-primary-color;
         text-decoration: none;
         font-weight: global.$bold;
-        padding-top: var(--padding-micro);
-        padding-bottom: var(--padding-micro);
+        padding-top: 0;
+        padding-bottom: 0;
         margin-top: var(--medium-margin);
         border-radius: .4rem;
         box-shadow: .1rem .1rem .2rem .4rem rgba(0, 17, 34, 0.322);
@@ -48,7 +48,7 @@
         }
 
         .center {
-            @include util.elementcenter(16%, var(--medium));
+            @include util.elementcenter(16%, var(--small));
             text-align: center !important;
             font-weight: global.$normal;
         }
