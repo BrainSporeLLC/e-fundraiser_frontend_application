@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LabelWithInput = ({onChange, children}) => {
+const LabelWithInput = ({type='text',name, onChange, children}) => {
   return (
     <>
     
