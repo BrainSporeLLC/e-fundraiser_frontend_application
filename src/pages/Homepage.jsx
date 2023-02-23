@@ -1,4 +1,6 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+
 // import {ReactComponent as OpeningQuote} from '../assets/svgs/opening.svg';
 const Homepage = () => {
   return (
@@ -12,6 +14,7 @@ const Homepage = () => {
          A hand that giveth is the hand that receiveth
         </blockquote>
         <cite>Bible, Act 20:35</cite>
+        <NavLink className="btn center" to="signup">Signup</NavLink>
     </div>
   );
 };

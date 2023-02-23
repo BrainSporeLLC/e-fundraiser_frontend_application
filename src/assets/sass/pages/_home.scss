@@ -1,5 +1,6 @@
 @use '../utils/' as util;
 @use '../global/' as global;
+
 .homepage{
     background-image: linear-gradient(to bottom, #00140ada, #000b2bd4),url('../images/pexels-pixabay-210600(small).png');
     background-size: cover;
@@ -19,6 +20,16 @@
         line-height: 1.5;
         letter-spacing: 1.2;
         text-align: end;
+    }
+    .center {
+        @include util.elementcenter(16%, var(--small));
+        text-align: center;
+        background-color: global.$button-primary-color;
+        text-decoration: none;
+        font-weight: global.$bold;
+        padding-top: var(--padding-small);
+        padding-bottom: var(--padding-small);
+        
     }
     @include util.breakpoints(large){
         h1{

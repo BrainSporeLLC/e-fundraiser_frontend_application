@@ -44,7 +44,7 @@ nav {
         display: flex;
     }
 
-    @include util.breakpoints(large) {
+    @include util.breakpoints(medium) {
         grid-template-columns: 1fr 2fr !important;
 
         .mobile-sidebar {

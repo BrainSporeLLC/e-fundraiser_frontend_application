@@ -32,3 +32,11 @@ $breakpoint-up:(
 @mixin textshadow{
     text-shadow: 0 0 2em #012e;
 }
+
+// CENTRE ELEMENTS
+@mixin elementcenter($width, $font){
+    width: $width;
+    font-size: $font;
+    margin-inline: auto !important;
+    
+}
