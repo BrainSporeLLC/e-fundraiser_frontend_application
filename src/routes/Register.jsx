@@ -37,7 +37,7 @@ const Register = ({onChange}) => {
       name='password'
       onChange={onchange}
       >
-        Email
+        Password
       </LabelWithInput>
     </FormComponent>
     </>
