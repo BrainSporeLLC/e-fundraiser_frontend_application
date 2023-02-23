@@ -34,8 +34,8 @@ const Login = ({ onChange, onClick }) => {
 
       <fieldset>
         <legend>or</legend>
-        <Button>Login with Google</Button>
-        <Button>Login with Facebook</Button>
+        <Button><FaGoogle width={50} hanging={50}/>Login with Google</Button>
+        <Button> <FaFacebookF width={50} height={50}/>Login with Facebook</Button>
       </fieldset>
 
     </>
