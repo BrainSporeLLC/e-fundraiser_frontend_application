@@ -68,7 +68,9 @@
             .closing-quote{
                 content: "\201D";
             }
-          .
+            *{
+                font-size: var(--medium);
+            }
         }
     }
 }
