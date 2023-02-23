@@ -2,7 +2,7 @@ import React from "react";
 import FormComponent from "../components/Form";
 import LabelWithInput from "../components/LabelWithInput";
 import Button from "../components/Button";
-import {FaFacebookF, FaGoogle} from "react-icons/fa"
+import { FaFacebookF, FaGoogle } from "react-icons/fa";
 
 const Login = ({ onChange, onClick }) => {
   return (
@@ -25,20 +25,23 @@ const Login = ({ onChange, onClick }) => {
         >
           password
         </LabelWithInput>
-        <Button
-        type="submit"
-        onClick={onClick}
-        >
+        <Button type="submit" onClick={onClick}>
           Login
         </Button>
       </FormComponent>
 
       <fieldset>
         <legend>or</legend>
-        <Button><FaGoogle width={50} hanging={50}/>Login with Google</Button>
-        <Button> <FaFacebookF width={50} height={50}/>Login with Facebook</Button>
+        <Button>
+          <FaGoogle width={50} hanging={50} />
+          Login with Google
+        </Button>
+        <Button>
+          {" "}
+          <FaFacebookF width={50} height={50} />
+          Login with Facebook
+        </Button>
       </fieldset>
-
     </>
   );
 };
