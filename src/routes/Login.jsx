@@ -15,7 +15,7 @@ const Login = ({ onChange, onClick }) => {
           onChange={onChange}
           placeholder="e.g. someone@example.com"
         >
-          Username
+          Email
         </LabelWithInput>
         <LabelWithInput
           type="password"
