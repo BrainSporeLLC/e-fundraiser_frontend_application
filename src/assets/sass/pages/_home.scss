@@ -61,6 +61,10 @@
         blockquote {
             font-size: var(--tiny);
             font-weight: global.$thick;
+
+            .openning-quote{
+
+            }
         }
     }
 }
