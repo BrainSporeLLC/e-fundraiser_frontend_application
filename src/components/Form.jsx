@@ -4,7 +4,9 @@ import { Form } from 'react-router-dom';
 const FormComponent = ({onSubmit, children}) => {
   return (
     <>
-      
+      <Form>
+        
+      </Form>
     </>
   )
 }
