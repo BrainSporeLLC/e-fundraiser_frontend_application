@@ -13,7 +13,7 @@
     align-items: center;
     background-position: center;
 
-    *{
+    * {
         width: 80%;
         margin-inline: 0 !important;
         margin-bottom: var(--small-mergin);
@@ -42,15 +42,28 @@
         box-shadow: .1rem .1rem .2rem .4rem rgba(0, 17, 34, 0.322);
     }
 
+    div {
+        * {
+            width: 80%;
+            margin-inline: 0 !important;
+            margin-bottom: var(--small-mergin);
+            line-height: 1.5;
+            letter-spacing: 1.2;
+            text-align: center !important;
+        }
+    }
+
     @include util.breakpoints(large) {
         * {
             text-align: end !important;
         }
+
         .center {
             @include util.elementcenter(16%, var(--medium));
             text-align: center !important;
             font-weight: global.$normal;
         }
+
         h1 {
             font-size: var(--large);
             font-weight: global.$bold;
@@ -62,18 +75,21 @@
             font-size: var(--tiny);
             font-weight: global.$thick;
 
-            .openning-quote{
+            .openning-quote {
                 content: "\201C";
             }
-            .closing-quote{
+
+            .closing-quote {
                 content: "\201D";
             }
-            *{
+
+            * {
                 font-size: var(--medium);
                 font-weight: global.$bold;
             }
         }
-        cite{
+
+        cite {
             font-weight: 100;
         }
     }
