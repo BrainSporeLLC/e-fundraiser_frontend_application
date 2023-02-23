@@ -22,13 +22,13 @@
         text-align: end;
     }
     .center {
-        @include util.elementcenter(8%, var(--small));
+        @include util.elementcenter(10%, var(--small));
         text-align: center;
         background-color: global.$button-primary-color;
         text-decoration: none;
         font-weight: global.$bold;
-        padding-top: var(--padding-small);
-        padding-bottom: var(--padding-small);
+        padding-top: var(--padding-tiny);
+        padding-bottom: var(--padding-tiny);
         border-radius: .4rem;
     }
     @include util.breakpoints(large){
