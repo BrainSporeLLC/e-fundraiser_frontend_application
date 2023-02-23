@@ -43,8 +43,7 @@ const Register = ({onChange}) => {
       <LabelWithInput
       type='password'
       id='confirmPassword'
-      name='confirmPassword'                               
-      placeholder='e.g. someone@example.com'
+      name='confirmPassword' 
       onChange={onchange}
       >
         Confrim password
