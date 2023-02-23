@@ -30,6 +30,7 @@
         padding-top: var(--padding-tiny);
         padding-bottom: var(--padding-tiny);
         border-radius: .4rem;
+        box-shadow: .1rem .1rem .2rem .4rem #012e;
     }
     @include util.breakpoints(large){
         h1{
