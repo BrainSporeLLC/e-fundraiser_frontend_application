@@ -33,8 +33,8 @@ const Login = ({ onChange, onClick }) => {
 
       <fieldset>
         <legend>or</legend>
-        <Button>Login with <Google>Google</Google></Button>
-        <Button>Login with <Facebook>Facebook</Facebook></Button>
+        <Button>Login with Google</Button>
+        <Button>Login with Facebook</Button>
       </fieldset>
 
     </>
