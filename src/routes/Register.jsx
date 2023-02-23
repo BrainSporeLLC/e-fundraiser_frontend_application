@@ -51,6 +51,9 @@ const Register = ({ onChange, onClick }) => {
         </LabelWithInput>
         <Button onClick={onClick}>Create account</Button>
       </FormComponent>
+      <fieldset>
+        <legend>or</legend>
+      </fieldset>
     </>
   );
 };
