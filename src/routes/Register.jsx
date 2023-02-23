@@ -1,6 +1,7 @@
 import React from 'react'
 import FormComponent from '../components/Form'
 import LabelWithInput from '../components/LabelWithInput'
+import Button from '../components/Button'
 
 const Register = ({onChange}) => {
   return (
@@ -48,6 +49,7 @@ const Register = ({onChange}) => {
       >
         Confrim password
       </LabelWithInput>
+      <Button></Button>
     </FormComponent>
     </>
   )
