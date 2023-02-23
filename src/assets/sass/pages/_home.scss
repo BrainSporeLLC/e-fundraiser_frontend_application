@@ -13,7 +13,8 @@
     align-items: center;
     background-position: center;
 
-    * {
+    *,
+    div * {
         width: 80%;
         margin-inline: 0 !important;
         margin-bottom: var(--small-mergin);
