@@ -39,7 +39,7 @@
         padding-bottom: var(--padding-tiny);
         margin-top: var(--medium-margin);
         border-radius: .4rem;
-        box-shadow: .1rem .1rem .2rem .4rem rgba(0, 17, 34, 0.322);
+        @include util.boxshadow;
     }
 
     @include util.breakpoints(large) {
