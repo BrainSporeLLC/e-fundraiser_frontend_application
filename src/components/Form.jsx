@@ -5,7 +5,7 @@ const FormComponent = ({onSubmit, children}) => {
   return (
     <>
       <Form>
-        
+        {children}
       </Form>
     </>
   )
