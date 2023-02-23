@@ -3,7 +3,7 @@ import FormComponent from '../components/Form'
 import LabelWithInput from '../components/LabelWithInput'
 import Button from '../components/Button'
 
-const Register = ({onChange}) => {
+const Register = ({onChange, onClick}) => {
   return (
     <>
     <FormComponent method="POST">
@@ -36,7 +36,7 @@ const Register = ({onChange}) => {
       type='password'
       id='password'
       name='password'
-      onChange={onchange}
+      onChange={onChange}
       >
         Password
       </LabelWithInput>
@@ -45,7 +45,7 @@ const Register = ({onChange}) => {
       type='password'
       id='confirmPassword'
       name='confirmPassword' 
-      onChange={onchange}
+      onChange={onChange}
       >
         Confrim password
       </LabelWithInput>
