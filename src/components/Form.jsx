@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Form = () => {
+const Form = ({children}) => {
   return (
     <div>Form</div>
   )
