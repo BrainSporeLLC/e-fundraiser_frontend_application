@@ -8,7 +8,8 @@ const Register = () => {
     <FormComponent method="POST">
       <LabelWithInput
       type='email'
-      
+      id='username'
+      name='username'
       >
         Username
       </LabelWithInput>
