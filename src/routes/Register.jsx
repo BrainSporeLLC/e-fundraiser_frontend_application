@@ -50,7 +50,11 @@ const Register = ({ onChange, onClick }) => {
         >
           Confrim password
         </LabelWithInput>
-        <Button onClick={onClick}>Create account</Button>
+        <div className="form-group">
+          <Button type="submit" onClick={onClick}>
+            Create account
+          </Button>
+        </div>
       </FormComponent>
       <fieldset>
         <legend>or</legend>
