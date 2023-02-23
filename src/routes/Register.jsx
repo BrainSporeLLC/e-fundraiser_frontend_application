@@ -26,6 +26,7 @@ const Register = ({onChange}) => {
       type='email'
       id='username'
       name='username'
+      placeholder='e.g. someone@example.com'
       onChange={onchange}
       >
         Username
