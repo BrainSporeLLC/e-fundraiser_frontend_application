@@ -1,8 +1,8 @@
 @use '../utils/' as util;
 @use '../global/' as global;
 
-.homepage{
-    background-image: linear-gradient(to bottom, #00140ada, #000b2bd4),url('../images/pexels-pixabay-210600(small).png');
+.homepage {
+    background-image: linear-gradient(to bottom, #00140ada, #000b2bd4), url('../images/pexels-pixabay-210600(small).png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -12,8 +12,8 @@
     justify-content: center;
     align-items: center;
     background-position: center;
-    
-    *{
+
+    * {
         width: 80%;
         margin-inline: 0 !important;
         margin-bottom: var(--small-mergin);
@@ -21,12 +21,14 @@
         letter-spacing: 1.2;
         text-align: center !important;
     }
-    h1{
+
+    h1 {
         font-size: var(--large);
         font-weight: global.$bold;
         @include util.textshadow;
         margin-bottom: var(--large-margin);
     }
+
     .center {
         @include util.elementcenter(44%, var(--medium));
         text-align: center;
@@ -39,17 +41,20 @@
         border-radius: .4rem;
         box-shadow: .1rem .1rem .2rem .4rem rgba(0, 17, 34, 0.322);
     }
-    @include util.breakpoints(large){
-        *{
-            text-align: end;
+
+    @include util.breakpoints(large) {
+        * {
+            text-align: end !important;
         }
-        h1{
+
+        h1 {
             font-size: var(--large);
             font-weight: global.$bold;
             @include util.textshadow;
             margin-bottom: var(--large-margin);
         }
-        blockquote{
+
+        blockquote {
             font-size: var(--tiny);
             font-weight: global.$normal;
         }
