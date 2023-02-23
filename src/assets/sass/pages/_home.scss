@@ -50,7 +50,7 @@
         .center {
             @include util.elementcenter(16%, var(--small));
             text-align: center !important;
-            font-weight: global.$normal;
+            font-weight: global.$bold;
         }
 
         h1 {
