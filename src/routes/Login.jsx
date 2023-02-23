@@ -6,7 +6,7 @@ import Button from "../components/Button";
 const Login = ({ onChange }) => {
   return (
     <>
-      <FormComponent>
+      <FormComponent method="POST">
         <LabelWithInput
           type="email"
           id="username"
