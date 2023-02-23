@@ -22,7 +22,7 @@
         text-align: end;
     }
     .center {
-        @include util.elementcenter(40%, var(--medium));
+        @include util.elementcenter(44%, var(--medium));
         text-align: center;
         background-color: global.$button-primary-color;
         text-decoration: none;
