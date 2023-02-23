@@ -64,6 +64,7 @@
             font-size: var(--tiny);
             font-weight: global.$thick;
             background-color: global.$primary-color;
+            margin-bottom: 0;
             .openning-quote {
                 content: "\201C";
             }
@@ -80,6 +81,7 @@
 
         cite {
             font-weight: 100;
+            background-color: global.$primary-color;
         }
     }
 }
