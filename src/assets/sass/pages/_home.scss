@@ -63,7 +63,7 @@
         blockquote {
             font-size: var(--tiny);
             font-weight: global.$thick;
-
+            background-color: global.$primary-color;
             .openning-quote {
                 content: "\201C";
             }
