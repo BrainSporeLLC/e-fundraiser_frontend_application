@@ -39,6 +39,16 @@ const Register = ({onChange}) => {
       >
         Password
       </LabelWithInput>
+
+      <LabelWithInput
+      type='password'
+      id='confirmPassword'
+      name='confirmPassword'                               
+      placeholder='e.g. someone@example.com'
+      onChange={onchange}
+      >
+        Confrim password
+      </LabelWithInput>
     </FormComponent>
     </>
   )
