@@ -20,7 +20,7 @@ const Login = ({ onChange }) => {
           name="password"
           onChange={onChange}
         >
-          Username
+          password
         </LabelWithInput>
       </FormComponent>
     </>
