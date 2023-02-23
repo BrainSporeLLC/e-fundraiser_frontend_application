@@ -51,6 +51,7 @@
             @include util.elementcenter(16%, var(--small));
             text-align: center !important;
             font-weight: global.$bold;
+            letter-spacing: 2.8pt;
         }
 
         h1 {
