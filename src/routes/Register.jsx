@@ -11,7 +11,7 @@ const Register = ({onChange}) => {
       type='text'
       id='firstName'
       name='firstName'
-      onChange={onchange}
+      onChange={onChange}
       >
         First name
       </LabelWithInput>
@@ -19,7 +19,7 @@ const Register = ({onChange}) => {
       type='text'
       id='lastName'
       name='lastName'
-      onChange={onchange}
+      onChange={onChange}
       >
         Last name
       </LabelWithInput>
@@ -28,7 +28,7 @@ const Register = ({onChange}) => {
       id='email'
       name='email'
       placeholder='e.g. someone@example.com'
-      onChange={onchange}
+      onChange={onChange}
       >
         Email
       </LabelWithInput>
@@ -49,7 +49,7 @@ const Register = ({onChange}) => {
       >
         Confrim password
       </LabelWithInput>
-      <Button>Create account</Button>
+      <Button onClick={onClick}>Create account</Button>
     </FormComponent>
     </>
   )
