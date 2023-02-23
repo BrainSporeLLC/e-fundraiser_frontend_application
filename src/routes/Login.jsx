@@ -25,9 +25,11 @@ const Login = ({ onChange, onClick }) => {
         >
           password
         </LabelWithInput>
-        <Button type="submit" onClick={onClick}>
-          Login
-        </Button>
+        <div className="form-group">
+          <Button type="submit" onClick={onClick}>
+            Login
+          </Button>
+        </div>
       </FormComponent>
 
       <fieldset>
