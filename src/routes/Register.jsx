@@ -29,7 +29,7 @@ const Register = ({onChange}) => {
       placeholder='e.g. someone@example.com'
       onChange={onchange}
       >
-        Username
+        Email
       </LabelWithInput>
     </FormComponent>
     </>
