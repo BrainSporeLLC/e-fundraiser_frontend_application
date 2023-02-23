@@ -31,6 +31,14 @@ const Register = ({onChange}) => {
       >
         Email
       </LabelWithInput>
+      <LabelWithInput
+      type='password'
+      id='password'
+      name='password'
+      onChange={onchange}
+      >
+        Email
+      </LabelWithInput>
     </FormComponent>
     </>
   )
