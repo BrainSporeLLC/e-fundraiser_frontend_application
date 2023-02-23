@@ -15,9 +15,9 @@ const Login = ({ onChange }) => {
           Username
         </LabelWithInput>
         <LabelWithInput
-          type="email"
-          id="username"
-          name="username"
+          type="password"
+          id="password"
+          name="password"
           onChange={onChange}
         >
           Username
