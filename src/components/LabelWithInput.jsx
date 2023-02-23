@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LabelWithInput = () => {
+const LabelWithInput = ({onChange, children}) => {
   return (
     <>
     
