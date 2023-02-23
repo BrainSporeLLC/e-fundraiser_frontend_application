@@ -49,12 +49,7 @@
         .center {
             @include util.elementcenter(16%, var(--medium));
             text-align: center !important;
-            font-weight: global.$thick;
-            padding-top: var(--padding-tiny);
-            padding-bottom: var(--padding-tiny);
-            margin-top: var(--medium-margin);
-            border-radius: .4rem;
-            box-shadow: .1rem .1rem .2rem .4rem rgba(0, 17, 34, 0.322);
+            font-weight: global.$normal;
         }
         h1 {
             font-size: var(--large);
