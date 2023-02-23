@@ -25,6 +25,7 @@ const Login = ({ onChange }) => {
         </LabelWithInput>
         <Button
         type="submit"
+        onClick={onClick}
         >
           login
         </Button>
