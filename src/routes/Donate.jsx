@@ -2,19 +2,20 @@ import React from "react";
 import FormComponent from "../components/Form";
 import LabelWithInput from "../components/LabelWithInput";
 import Button from "../components/Button";
+import TempDonationImage from "../assets/images/"
 import { FaFacebookF, FaGoogle } from "react-icons/fa";
 
 const Donate = ({ onChange, onClick }) => {
   return (
     <div className="donate">
       <div className="donate__header">
-
+        <img src="" alt="" />
       </div>
       <div className="donate__body">
 
       </div>
       <div className="donate__footer">
-        
+
       </div>
       <FormComponent method="POST">
         <h2>Make donations now</h2>
