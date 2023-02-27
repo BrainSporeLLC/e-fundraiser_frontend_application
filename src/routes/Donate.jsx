@@ -9,7 +9,7 @@ const Donate = ({ onChange, onClick }) => {
   return (
     <div className="donate">
       <div className="donate__header">
-        <img src="" alt="" />
+        <img src={TempDonationImage} alt="image of of donation made" />
       </div>
       <div className="donate__body">
 
