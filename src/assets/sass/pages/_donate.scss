@@ -3,9 +3,11 @@
     @include util.backgroundwithimage('../images/medium-shot-women-posing-outdoors_23-2148959249.jpg');
     height: 100vh;
     overflow: hidden;
+    padding: 4% 0;
     div{
         width: 70%;
         margin-inline: auto !important;
+        background-color: purple;
         .header{
             img{
                 height: auto !important;
