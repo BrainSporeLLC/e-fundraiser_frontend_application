@@ -14,7 +14,7 @@ const Homepage = () => {
           <span className="closing-quote">&#8221;</span>
         </blockquote>
         <cite>Bible, Act 20:35</cite>
-      <NavLink className="btn center" to="signup">
+      <NavLink className="btn center" to="donate">
         donate
       </NavLink>
     </div>
