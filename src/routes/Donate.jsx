@@ -6,7 +6,7 @@ import { FaFacebookF, FaGoogle } from "react-icons/fa";
 
 const Donate = ({ onChange, onClick }) => {
   return (
-    <>
+    <div className="donate">
       <FormComponent method="POST">
         <h2>Make donations now</h2>
         <LabelWithInput
@@ -69,7 +69,7 @@ const Donate = ({ onChange, onClick }) => {
         </Button>
       </fieldset> */}
       
-    </>
+    </div>
   );
 };
 
