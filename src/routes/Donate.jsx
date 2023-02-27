@@ -2,7 +2,7 @@ import React from "react";
 import FormComponent from "../components/Form";
 import LabelWithInput from "../components/LabelWithInput";
 import Button from "../components/Button";
-import TempDonationImage from "../assets/images/young-volunteers-red-tshirts-work-distribution-point_259150-57360.jpg";
+import TempDonationImage from "../assets/images/young-volunteers-red-tshirts-work-distribution-point_259150-57360.png";
 import { FaFacebookF, FaGoogle } from "react-icons/fa";
 
 const Donate = ({ onChange, onClick }) => {
