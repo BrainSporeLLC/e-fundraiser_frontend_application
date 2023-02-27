@@ -33,7 +33,7 @@
     .center {
         @include util.elementcenter(44%, var(--medium));
         text-align: center;
-        background-color: global.$button-primary-color;
+        background-color: global.$button-secondary-color;
         text-decoration: none;
         font-weight: global.$bold;
         padding-top: var(--padding-tiny);
