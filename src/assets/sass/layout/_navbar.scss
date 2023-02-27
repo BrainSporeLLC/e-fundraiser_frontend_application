@@ -69,14 +69,8 @@ nav {
                 font-size: var(--small) !important;
                 margin-inline: var(--padding-small) !important;
                 &:last-child{
-                    background-color: global.$button-primary-color !important;
                     width: 8vw !important;
                     margin-right: 0 !important;
-                    text-align: center;
-                    // padding-top: var(--padding-micro);
-                    padding-bottom: var(--padding-micro);
-                    border-radius: .2em;
-                    @include util.boxshadow;
                 }
             }
         }
