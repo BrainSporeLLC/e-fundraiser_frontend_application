@@ -38,7 +38,7 @@ nav {
             display: block !important;
             text-decoration: none !important;
             font-size: var(--small);
-            :last-child{
+            &:last-child{
                 background-color: global.$button-primary-color !important;
             }
         }
