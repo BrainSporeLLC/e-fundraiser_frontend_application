@@ -7,6 +7,15 @@ import { FaFacebookF, FaGoogle } from "react-icons/fa";
 const Donate = ({ onChange, onClick }) => {
   return (
     <div className="donate">
+      <div className="donate__header">
+
+      </div>
+      <div className="donate__body">
+
+      </div>
+      <div className="donate__footer">
+        
+      </div>
       <FormComponent method="POST">
         <h2>Make donations now</h2>
         <LabelWithInput
