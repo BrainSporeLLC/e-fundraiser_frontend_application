@@ -26,6 +26,13 @@ const Donate = ({ onChange, onClick }) => {
             </p>
           </div>
           <div className="donations">
+            {donations.map(donation =>{
+              return (
+                <div>
+                  <span>KES.{donation}</span>
+                </div>
+              )
+            })}
             <FormComponent method="POST">
               <h2>Make donations now</h2>
               <LabelWithInput
