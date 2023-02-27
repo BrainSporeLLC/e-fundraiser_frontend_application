@@ -14,7 +14,11 @@ const Donate = ({ onChange, onClick }) => {
           <img src={TempDonationImage} alt="image of of donation made" />
           <span className="header__bottom">Donation lorem something...</span>
         </div>
-        <div className="body"></div>
+        <div className="body">
+          <div className="donation-desc">
+            
+          </div>
+        </div>
         <div className="footer"></div>
       </div>
       <FormComponent method="POST">
