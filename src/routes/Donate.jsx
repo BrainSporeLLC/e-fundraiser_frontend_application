@@ -7,7 +7,7 @@ import { FaFacebookF, FaGoogle } from "react-icons/fa";
 const Register = ({ onChange, onClick }) => {
   return (
     <>
-      <FormComponent method="POST">
+      {/* <FormComponent method="POST">
         <LabelWithInput
           type="text"
           id="firstName"
@@ -66,7 +66,7 @@ const Register = ({ onChange, onClick }) => {
           <FaFacebookF width={50} height={50} />
           Create account with Facebook
         </Button>
-      </fieldset>
+      </fieldset> */}
     </>
   );
 };
