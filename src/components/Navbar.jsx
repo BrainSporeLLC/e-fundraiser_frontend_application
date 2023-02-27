@@ -18,8 +18,9 @@ const Navbar = ({visible, show }) => {
       <div 
       className={ visible? "show-menu menus": "menus" }
       >
-        <NavLink to="raisefunds">raise funds</NavLink>
         <NavLink to="testimonies">programs</NavLink>
+        <NavLink to="raisefunds">raise funds</NavLink>
+        
         <NavLink to="resources">who are we?</NavLink>
         <NavLink to="login">login</NavLink>
       </div>
