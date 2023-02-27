@@ -29,7 +29,7 @@ const app = createBrowserRouter(
       />
       <Route
       element={<Testimonies/>}
-      path='testimonies'
+      path='programs'
       />
       <Route
       element={<RaiseFunds/>}
