@@ -3,10 +3,13 @@
     @include util.backgroundwithimage('../images/medium-shot-women-posing-outdoors_23-2148959249.jpg');
     height: 100vh;
     overflow: hidden;
-    &__header{
-        img{
-            height: 30% !important;
-            width: auto !important;
+    div{
+
+        .header{
+            img{
+                height: 30% !important;
+                width: auto !important;
+            }
         }
     }
 }

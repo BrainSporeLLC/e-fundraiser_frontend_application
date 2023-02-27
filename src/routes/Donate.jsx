@@ -9,11 +9,11 @@ const Donate = ({ onChange, onClick }) => {
   return (
     <div className="donate">
       <div>
-        <div className="donate__header">
+        <div className="header">
           <img src={TempDonationImage} alt="image of of donation made" />
         </div>
-        <div className="donate__body"></div>
-        <div className="donate__footer"></div>
+        <div className="body"></div>
+        <div className="footer"></div>
       </div>
       <FormComponent method="POST">
         <h2>Make donations now</h2>
