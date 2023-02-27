@@ -18,9 +18,63 @@ const Donate = ({ onChange, onClick }) => {
           <div className="donation-desc">
             <h2>Donation title</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint praesentium quis eaque. Iusto sint qui nam esse molestias,
-               veniam a nisi ad odit laboriosam officia. Nisi, iste? Voluptatum, odio rerum.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+              praesentium quis eaque. Iusto sint qui nam esse molestias, veniam
+              a nisi ad odit laboriosam officia. Nisi, iste? Voluptatum, odio
+              rerum.
             </p>
+          </div>
+          <div className="donations">
+            <FormComponent method="POST">
+              <h2>Make donations now</h2>
+              <LabelWithInput
+                type="number"
+                id="amount"
+                name="amount"
+                onChange={onChange}
+              >
+                Enter amount to donate
+              </LabelWithInput>
+              {/* <LabelWithInput
+          type="text"
+          id="lastName"
+          name="lastName"
+          onChange={onChange}
+        >
+          Last name
+        </LabelWithInput>
+        <LabelWithInput
+          type="email"
+          id="email"
+          name="email"
+          placeholder="e.g. someone@example.com"
+          onChange={onChange}
+        >
+          Email
+        </LabelWithInput>
+        <LabelWithInput
+          type="password"
+          id="password"
+          name="password"
+          onChange={onChange}
+        >
+          Password
+        </LabelWithInput>
+
+        <LabelWithInput
+          type="password"
+          id="confirmPassword"
+          name="confirmPassword"
+          onChange={onChange}
+        >
+          Confrim password
+        </LabelWithInput> */}
+              <div className="form-group">
+                <Button type="submit" onClick={onClick}>
+                  donate now
+                </Button>
+              </div>
+            </FormComponent>
           </div>
         </div>
         <div className="footer"></div>
