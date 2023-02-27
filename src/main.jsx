@@ -28,12 +28,12 @@ const app = createBrowserRouter(
       index
       />
       <Route
-      element={<RaiseFunds/>}
-      path='raisefunds'
-      />
-      <Route
       element={<Testimonies/>}
       path='testimonies'
+      />
+      <Route
+      element={<RaiseFunds/>}
+      path='raisefunds'
       />
       <Route
       element={<Reads/>}
