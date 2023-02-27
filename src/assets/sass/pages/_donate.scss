@@ -1,7 +1,5 @@
 .donate{
-    background-image: linear-gradient(to bottom, #00140ada, #000b2bd4), url('../images/pexels-pixabay-210600(small).png');
-    background-size: cover;
-    background-repeat: no-repeat;
+    @include util.backgroundwithimage('../images/medium-shot-women-posing-outdoors_23-2148959249.jpg');
     height: 100vh;
     overflow: hidden;
 }
