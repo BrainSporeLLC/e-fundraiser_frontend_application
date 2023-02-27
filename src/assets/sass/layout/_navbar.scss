@@ -40,7 +40,8 @@ nav {
             font-size: var(--small);
             &:last-child{
                 background-color: global.$button-primary-color !important;
-                width: 5vw !important;
+                width: 25vw !important;
+                text-align: center;
             }
         }
     }
