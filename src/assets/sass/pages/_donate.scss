@@ -18,7 +18,7 @@
                 width: 100%;
                 display: block !important;
                 height: 4vh !important;
-                background-color: global.$primary-color;
+                background-color: var(--nav-background-color);
             }
             img{
                 width: 100% !important;
@@ -30,7 +30,7 @@
                 width: 100%;
                 display: block !important;
                 height: 6vh !important;
-                background-color: global.$primary-color;
+                background-color: var(--nav-background-color);
                 text-align: center !important;
             }
         }
