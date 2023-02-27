@@ -15,7 +15,7 @@ const Homepage = () => {
         </blockquote>
         <cite>Bible, Act 20:35</cite>
       <NavLink className="btn center" to="signup">
-        Signup
+        donate
       </NavLink>
     </div>
   );
