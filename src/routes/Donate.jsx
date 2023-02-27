@@ -16,7 +16,10 @@ const Donate = ({ onChange, onClick }) => {
         </div>
         <div className="body">
           <div className="donation-desc">
-            
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint praesentium quis eaque. Iusto sint qui nam esse molestias,
+               veniam a nisi ad odit laboriosam officia. Nisi, iste? Voluptatum, odio rerum.
+            </p>
           </div>
         </div>
         <div className="footer"></div>
