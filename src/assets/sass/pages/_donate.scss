@@ -9,10 +9,14 @@
         margin-inline: auto !important;
         background-color: purple;
         .header{
+            position: relative;
             width: 100%;
             &__top{
+                position: absolute;
+                top: 0;
+                width: 100%;
                 display: block !important;
-                height: .8vh !important;
+                height: 8vh !important;
             }
             img{
                 width: 100% !important;
