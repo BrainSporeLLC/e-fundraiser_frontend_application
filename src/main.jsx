@@ -14,7 +14,7 @@ import Testimonies from './routes/Testimonies'
 import Reads from './routes/Reads'
 import Login from './routes/Login'
 import Homepage from './pages/Homepage'
-import Register from './routes/Register'
+import Register from './routes/Donate'
 
 const app = createBrowserRouter(
   createRoutesFromElements(
