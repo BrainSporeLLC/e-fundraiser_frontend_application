@@ -67,6 +67,7 @@ const Register = ({ onChange, onClick }) => {
           Create account with Facebook
         </Button>
       </fieldset> */}
+      <p>Donate</p>
     </>
   );
 };
