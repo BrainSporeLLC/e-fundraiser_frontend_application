@@ -23,10 +23,12 @@
     }
 
     h1 {
+        span{
         font-size: var(--large);
         font-weight: global.$bold;
         @include util.textshadow;
         margin-bottom: var(--large-margin);
+        }
     }
 
     .center {
