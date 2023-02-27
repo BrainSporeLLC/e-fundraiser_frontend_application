@@ -58,10 +58,13 @@
         }
 
         h1 {
-            font-size: var(--large);
-            font-weight: global.$bold;
-            @include util.textshadow;
-            margin-bottom: var(--large-margin);
+            span {
+                display: block;
+                font-size: var(--large);
+                font-weight: global.$bold;
+                @include util.textshadow;
+                margin-bottom: var(--large-margin);
+            }
         }
 
         blockquote {
