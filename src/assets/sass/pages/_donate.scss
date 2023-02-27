@@ -8,12 +8,10 @@
     div{
         width: 100%;
         margin-inline: auto !important;
-        * {
-            margin-bottom: var(--small-mergin);
-        }
         .header{
             position: relative;
             width: 100%;
+            margin-bottom: var(--small-mergin);
             &__top{
                 position: absolute;
                 top: 0;
