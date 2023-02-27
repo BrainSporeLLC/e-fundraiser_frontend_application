@@ -79,7 +79,7 @@ const Donate = ({ onChange, onClick }) => {
         </div>
         <div className="footer"></div>
       </div>
-      <FormComponent method="POST">
+      {/* <FormComponent method="POST">
         <h2>Make donations now</h2>
         <LabelWithInput
           type="number"
@@ -88,7 +88,7 @@ const Donate = ({ onChange, onClick }) => {
           onChange={onChange}
         >
           Enter amount to donate
-        </LabelWithInput>
+        </LabelWithInput> */}
         {/* <LabelWithInput
           type="text"
           id="lastName"
@@ -123,12 +123,12 @@ const Donate = ({ onChange, onClick }) => {
         >
           Confrim password
         </LabelWithInput> */}
-        <div className="form-group">
+        {/* <div className="form-group">
           <Button type="submit" onClick={onClick}>
             donate now
           </Button>
         </div>
-      </FormComponent>
+      </FormComponent> */}
       {/* <fieldset>
         <legend>or</legend>
         <Button>
