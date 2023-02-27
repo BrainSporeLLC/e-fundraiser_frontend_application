@@ -39,7 +39,7 @@ nav {
             text-decoration: none !important;
             font-size: var(--small);
             &:last-child{
-                background-color: global.$button-primary-color !important;
+                background-color: global.$button-secondary-color !important;
                 width: 25vw !important;
                 text-align: center;
                 // padding-top: var(--padding-micro);
