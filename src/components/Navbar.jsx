@@ -20,9 +20,8 @@ const Navbar = ({visible, show }) => {
       >
         <NavLink to="testimonies">programs</NavLink>
         <NavLink to="raisefunds">raise funds</NavLink>
-        
         <NavLink to="resources">who are we?</NavLink>
-        <NavLink to="login">login</NavLink>
+        {/* <NavLink to="login">login</NavLink> */}
       </div>
     </nav>
   );
