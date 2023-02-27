@@ -24,6 +24,14 @@
                 width: 100% !important;
                 height: auto !important;
             }
+            &__bottom {
+                position: absolute;
+                top: 90% !important;
+                width: 100%;
+                display: block !important;
+                height: 12vh !important;
+                background-color: global.$primary-color;
+            }
         }
     }
 }
