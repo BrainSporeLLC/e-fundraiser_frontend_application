@@ -4,7 +4,7 @@ import LabelWithInput from "../components/LabelWithInput";
 import Button from "../components/Button";
 import { FaFacebookF, FaGoogle } from "react-icons/fa";
 
-const Register = ({ onChange, onClick }) => {
+const Donate = ({ onChange, onClick }) => {
   return (
     <>
       {/* <FormComponent method="POST">
@@ -72,4 +72,4 @@ const Register = ({ onChange, onClick }) => {
   );
 };
 
-export default Register;
+export default Donate;
