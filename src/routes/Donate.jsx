@@ -7,6 +7,7 @@ import { FaFacebookF, FaGoogle } from "react-icons/fa";
 const Donate = ({ onChange, onClick }) => {
   return (
     <>
+      <h1>Donate</h1>
       {/* <FormComponent method="POST">
         <LabelWithInput
           type="text"
@@ -67,7 +68,7 @@ const Donate = ({ onChange, onClick }) => {
           Create account with Facebook
         </Button>
       </fieldset> */}
-      <p>Donate</p>
+      
     </>
   );
 };
