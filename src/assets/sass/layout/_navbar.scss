@@ -42,8 +42,9 @@ nav {
                 background-color: global.$button-primary-color !important;
                 width: 25vw !important;
                 text-align: center;
-                padding-top: var(--padding-micro);
+                // padding-top: var(--padding-micro);
                 padding-bottom: var(--padding-micro);
+                border-radius: .4em;
             }
         }
     }
