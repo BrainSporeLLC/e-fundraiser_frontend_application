@@ -2,20 +2,18 @@ import React from "react";
 import FormComponent from "../components/Form";
 import LabelWithInput from "../components/LabelWithInput";
 import Button from "../components/Button";
-import TempDonationImage from "../assets/images/young-volunteers-red-tshirts-work-distribution-point_259150-57360.jpg"
+import TempDonationImage from "../assets/images/young-volunteers-red-tshirts-work-distribution-point_259150-57360.jpg";
 import { FaFacebookF, FaGoogle } from "react-icons/fa";
 
 const Donate = ({ onChange, onClick }) => {
   return (
     <div className="donate">
-      <div className="donate__header">
-        <img src={TempDonationImage} alt="image of of donation made" />
-      </div>
-      <div className="donate__body">
-
-      </div>
-      <div className="donate__footer">
-
+      <div>
+        <div className="donate__header">
+          <img src={TempDonationImage} alt="image of of donation made" />
+        </div>
+        <div className="donate__body"></div>
+        <div className="donate__footer"></div>
       </div>
       <FormComponent method="POST">
         <h2>Make donations now</h2>
@@ -78,7 +76,6 @@ const Donate = ({ onChange, onClick }) => {
           Create account with Facebook
         </Button>
       </fieldset> */}
-      
     </div>
   );
 };
