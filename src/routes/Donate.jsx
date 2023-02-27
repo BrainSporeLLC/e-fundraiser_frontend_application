@@ -36,40 +36,6 @@ const Donate = ({ onChange, onClick }) => {
               >
                 Enter amount to donate
               </LabelWithInput>
-              {/* <LabelWithInput
-          type="text"
-          id="lastName"
-          name="lastName"
-          onChange={onChange}
-        >
-          Last name
-        </LabelWithInput>
-        <LabelWithInput
-          type="email"
-          id="email"
-          name="email"
-          placeholder="e.g. someone@example.com"
-          onChange={onChange}
-        >
-          Email
-        </LabelWithInput>
-        <LabelWithInput
-          type="password"
-          id="password"
-          name="password"
-          onChange={onChange}
-        >
-          Password
-        </LabelWithInput>
-
-        <LabelWithInput
-          type="password"
-          id="confirmPassword"
-          name="confirmPassword"
-          onChange={onChange}
-        >
-          Confrim password
-        </LabelWithInput> */}
               <div className="form-group">
                 <Button type="submit" onClick={onClick}>
                   donate now
