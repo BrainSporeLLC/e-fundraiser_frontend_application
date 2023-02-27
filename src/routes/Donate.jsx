@@ -6,6 +6,7 @@ import TempDonationImage from "../assets/images/young-volunteers-red-tshirts-wor
 import { FaFacebookF, FaGoogle } from "react-icons/fa";
 
 const Donate = ({ onChange, onClick }) => {
+  const donations = [10000, 15000, 25000, 50000, 100000, 500000];
   return (
     <div className="donate">
       <div>
