@@ -23,11 +23,12 @@
     }
 
     h1 {
-        span{
-        font-size: var(--large);
-        font-weight: global.$bold;
-        @include util.textshadow;
-        margin-bottom: var(--large-margin);
+        span {
+            display: block;
+            font-size: var(--large);
+            font-weight: global.$bold;
+            @include util.textshadow;
+            margin-bottom: var(--large-margin);
         }
     }
 
@@ -66,15 +67,15 @@
         blockquote {
             font-size: var(--tiny);
             font-weight: global.$thick;
-            background-color: rgba(global.$primary-color,.4);
+            background-color: rgba(global.$primary-color, .4);
             margin-bottom: 0;
             margin-left: 50vw !important;
             padding-right: var(--padding-tiny);
             width: 26% !important;
             border-top-left-radius: .4em !important;
-            border-top-right-radius:.4em !important; 
+            border-top-right-radius: .4em !important;
             @include util.boxshadow;
-            
+
             .openning-quote {
                 content: "\201C";
             }
@@ -91,13 +92,13 @@
 
         cite {
             font-weight: 100;
-            background-color: rgba(global.$primary-color,.4);
+            background-color: rgba(global.$primary-color, .4);
             padding-bottom: var(--padding-medium);
             padding-right: var(--padding-small);
             margin-left: 50vw !important;
             width: 26% !important;
             border-bottom-left-radius: .4em !important;
-            border-bottom-right-radius:.4em !important; 
+            border-bottom-right-radius: .4em !important;
             @include util.boxshadow;
         }
     }
