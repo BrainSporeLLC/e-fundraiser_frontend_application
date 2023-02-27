@@ -14,7 +14,7 @@ import Testimonies from './routes/Testimonies'
 import Reads from './routes/Reads'
 import Login from './routes/Login'
 import Homepage from './pages/Homepage'
-import Register from './routes/Donate'
+import Donate from './routes/Donate'
 
 const app = createBrowserRouter(
   createRoutesFromElements(
@@ -44,7 +44,7 @@ const app = createBrowserRouter(
       path='login'
       />
       <Route
-      element={<Register/>}
+      element={<Donate/>}
       path='donate'
       />
     </Route>
