@@ -45,6 +45,7 @@ nav {
                 // padding-top: var(--padding-micro);
                 padding-bottom: var(--padding-micro);
                 border-radius: .2em;
+                @include util.boxshadow;
             }
         }
     }
