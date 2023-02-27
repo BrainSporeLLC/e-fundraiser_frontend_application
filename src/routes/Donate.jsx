@@ -9,14 +9,14 @@ const Donate = ({ onChange, onClick }) => {
     <>
       <FormComponent method="POST">
         <LabelWithInput
-          type="text"
-          id="firstName"
-          name="firstName"
+          type="number"
+          id="amount"
+          name="amount"
           onChange={onChange}
         >
-          First name
+          Enter amount to donate
         </LabelWithInput>
-        <LabelWithInput
+        {/* <LabelWithInput
           type="text"
           id="lastName"
           name="lastName"
@@ -49,14 +49,14 @@ const Donate = ({ onChange, onClick }) => {
           onChange={onChange}
         >
           Confrim password
-        </LabelWithInput>
+        </LabelWithInput> */}
         <div className="form-group">
           <Button type="submit" onClick={onClick}>
-            Create account
+            donate now
           </Button>
         </div>
       </FormComponent>
-      <fieldset>
+      {/* <fieldset>
         <legend>or</legend>
         <Button>
           <FaGoogle width={50} hanging={50} />
@@ -66,7 +66,7 @@ const Donate = ({ onChange, onClick }) => {
           <FaFacebookF width={50} height={50} />
           Create account with Facebook
         </Button>
-      </fieldset>
+      </fieldset> */}
       
     </>
   );
