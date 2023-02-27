@@ -4,6 +4,9 @@
     height: 100vh;
     overflow: hidden;
     &__header{
-        
+        img{
+            height: 30% !important;
+            width: auto !important;
+        }
     }
 }
