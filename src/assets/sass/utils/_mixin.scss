@@ -46,7 +46,7 @@ $breakpoint-up:(
 
 // BAckground with Image:
 @mixin backgroundwithimage($url){
-    background-image: linear-gradient(to bottom, #00140ada, #000b2bd4), $url;
+    background-image: linear-gradient(to bottom, #00140ada, #000b2bd4), url($url);
     background-size: cover;
     background-repeat: no-repeat;
 }
