@@ -66,8 +66,7 @@
                 form{
                     font-size: var(--small);
                     display: block !important;
-                    background-color: purple;
-                    width: 100vw !important;
+                    width: 100% !important;
                     div{
                         button{
                             background-color: global.$button-primary-color !important;
