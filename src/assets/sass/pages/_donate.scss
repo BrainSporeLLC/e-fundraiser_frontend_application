@@ -40,29 +40,14 @@
         div{
             width: 60%;
             .header{
-                position: relative;
-                width: 100%;
-                margin-bottom: var(--large-margin);
+                margin-bottom: var(--small-mergin);
                 &__top{
-                    position: absolute;
-                    top: 0;
-                    width: 100%;
-                    display: block !important;
-                    height: 4vh !important;
-                    background-color: var(--nav-background-color);
+                    height: 8vh !important;
                 }
                 img{
-                    width: 100% !important;
-                    height: auto !important;
                 }
                 &__bottom {
-                    position: absolute;
-                    top: 90% !important;
-                    width: 100%;
-                    display: block !important;
-                    height: 6vh !important;
-                    background-color: var(--nav-background-color);
-                    text-align: center !important;
+                    height: 12vh !important;
                 }
                 
             }
