@@ -37,14 +37,13 @@ const Donate = ({ onChange, onClick }) => {
               );
             })}
             <FormComponent method="POST">
-              <p>Other?</p>
               <LabelWithInput
                 type="number"
                 id="amount"
                 name="amount"
                 onChange={onChange}
               >
-                Enter amount to donate
+                Other?
               </LabelWithInput>
               <div className="form-group">
                 <Button type="submit" onClick={onClick}>
