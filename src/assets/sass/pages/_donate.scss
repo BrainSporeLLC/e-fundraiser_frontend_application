@@ -68,9 +68,12 @@
                     display: block !important;
                     width: 100% !important;
                     div{
+                        label{
+                            display: inline-block !important;
+                        }
                         input{
                             height: 4vh !important;
-                            display: inline-block;
+                            display: inline-block !important;
                         }
                         button{
                             background-color: global.$button-primary-color !important;
