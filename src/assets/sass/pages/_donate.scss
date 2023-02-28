@@ -26,11 +26,11 @@
                 margin-inline: auto !important;
             }
             &__bottom {
-                position: absolute;
-                top: -2.8rem !important;
+                // position: absolute;
+                // top: -2.8rem !important;
                 width: 100%;
                 display: block !important;
-                height: 24vh !important;
+                height: auto !important;
                 // background-color: var(--nav-background-color);
                 text-align: start !important;
                 font-size: var(--small);
