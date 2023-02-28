@@ -48,6 +48,7 @@
             margin-bottom: var(--medium-margin);
             padding-inline: var(--padding-tiny);
             .donations{
+                @include layout.twoequalscreens;
                 .values_card{
                     height: 4vh;
                     background-color: global.$button-secondary-color;
