@@ -38,6 +38,7 @@
     }
     @include util.breakpoints(medium){
         div{
+            width: 60%;
             .header{
                 position: relative;
                 width: 100%;
