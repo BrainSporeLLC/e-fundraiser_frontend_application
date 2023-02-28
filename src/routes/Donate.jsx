@@ -36,7 +36,8 @@ const Donate = ({ onChange, onClick }) => {
                 </div>
               );
             })}
-            <FormComponent method="POST">
+          </div>
+          <FormComponent method="POST">
               <LabelWithInput
                 type="number"
                 id="amount"
@@ -51,7 +52,6 @@ const Donate = ({ onChange, onClick }) => {
                 </Button>
               </div>
             </FormComponent>
-          </div>
         </div>
         <div className="footer"></div>
       </div>
