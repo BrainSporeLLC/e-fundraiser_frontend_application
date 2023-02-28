@@ -126,9 +126,39 @@
                     padding: 4%;
                     display: flex;
                     .values_card{
-                        border-radius: 75% !important;
-                        width: 60%;
-                        height: 12vh;           
+                        border-radius: 50% !important;
+                        width: 10% !important;
+                        height: 20vh !important;
+                        margin-left: var(--small-mergin) !important; 
+                        padding-top: 4.5% !important;          
+                    }
+                }
+                form{
+                    font-size: var(--medium);
+                    div{
+                        margin-left: var(--large-margin) !important;
+                        label{
+                            display: inline !important;
+                            font-size: var(--medium);
+                        }
+                        input{
+                            height: 6vh !important;
+                            display: inline-block !important;
+                            margin-left: var(--medium-margin) !important;
+                            font-size: var(--small);
+                            max-width: 20vw !important;
+                            outline: none;
+                            border: none;
+                        }
+                        button{
+                            background-color: global.$button-primary-color !important;
+                            outline: none !important;
+                            border: none !important;
+                            height: 6vh !important;
+                            width: 31% !important;
+                            margin-left: var(--small-margin);
+                            border-radius: .4rem;
+                        }
                     }
                 }
             }
