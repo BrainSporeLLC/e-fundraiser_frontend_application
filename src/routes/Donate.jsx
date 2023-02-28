@@ -28,7 +28,7 @@ const Donate = ({ onChange, onClick }) => {
           <img src={TempDonationImage} alt="image of of donation made" />
         </div>
         <div className="body">
-          <div className="donations">
+          <div className="donations_values">
             {donations.map(({id, value}) => {
               return (
                 <div>
