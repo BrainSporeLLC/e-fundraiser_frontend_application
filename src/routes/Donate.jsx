@@ -31,7 +31,7 @@ const Donate = ({ onChange, onClick }) => {
           <div className="donations">
             {donations.map(({id, value}) => {
               return (
-                <div>
+                <div className="values_card">
                   <Button key={id}>KES.{value}</Button>
                 </div>
               );
