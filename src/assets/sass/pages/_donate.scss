@@ -41,6 +41,11 @@
             }
             
         }
+        .body{
+            position: relative;
+            width: 100%;
+            margin-bottom: var(--medium-margin);
+        }
     }
     @include util.breakpoints(medium){
         div{
