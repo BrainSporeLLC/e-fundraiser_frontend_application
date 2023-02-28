@@ -48,6 +48,8 @@
             padding-inline: var(--padding-tiny);
             .donations{
                 .values_card{
+                    height: 4vh;
+                    background-color: global.$button-secondary-color;
                     button{
                         background-color: transparent !important;
                         border: none !important;
