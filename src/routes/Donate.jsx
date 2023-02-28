@@ -38,10 +38,10 @@ const Donate = ({ onChange, onClick }) => {
             </p>
           </div>
           <div className="donations">
-            {donations.map((donation) => {
+            {donations.map(({id, value}) => {
               return (
                 <div>
-                  <Button>KES.{donation}</Button>
+                  <Button key={id}>KES.{value}</Button>
                 </div>
               );
             })}
