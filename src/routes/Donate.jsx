@@ -29,7 +29,7 @@ const Donate = ({ onChange, onClick }) => {
             {donations.map(donation =>{
               return (
                 <div>
-                  <span>KES.{donation}</span>
+                  <Button>KES.{donation}</Button>
                 </div>
               )
             })}
