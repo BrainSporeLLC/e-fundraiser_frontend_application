@@ -52,7 +52,7 @@
                 .values_card{
                     width: 56% !important;
                     height: 12vh !important;
-                    background-color: global.$--background-color;
+                    background-color: var(--background-color);
                     text-align: center;
                     margin: auto !important;
                     padding: 2.8rem 0 !important;;
