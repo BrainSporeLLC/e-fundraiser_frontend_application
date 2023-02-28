@@ -1,7 +1,7 @@
 @mixin onescreen {
-    display: grid;
-    grid-template-rows: auto;
-    row-gap: 4%;
+    display: grid !important;
+    grid-template-rows: auto !important;
+    row-gap: 4% !important;
 }
 @mixin twoequalscreens {
     display: grid;
