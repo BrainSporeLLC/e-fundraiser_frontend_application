@@ -1,5 +1,6 @@
 @use '../utils/' as util;
 @use '../global/' as global;
+@use '../layout/' as layout;
 .donate{
     height: auto !important;
     overflow: hidden;
