@@ -12,8 +12,8 @@ const Donate = ({ onChange, onClick }) => {
       <div>
         <div className="header">
           <span className="header__top"></span>
-          <img src={TempDonationImage} alt="image of of donation made" />
           <span className="header__bottom">Donation lorem something... Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque perferendis magnam aut, obcaecati inventore fuga odit explicabo natus aliquam fugit eligendi assumenda sit iure quos quam alias cum esse provident?</span>
+          <img src={TempDonationImage} alt="image of of donation made" />
         </div>
         <div className="body">
           <div className="donation-desc">
