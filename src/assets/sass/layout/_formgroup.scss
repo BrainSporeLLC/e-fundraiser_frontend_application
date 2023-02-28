@@ -1,5 +1,7 @@
+@use '../global/' as global;
 .form-group{
     *{
         display: block;
+        margin-bottom: var(--medium-margin);
     }
 }
