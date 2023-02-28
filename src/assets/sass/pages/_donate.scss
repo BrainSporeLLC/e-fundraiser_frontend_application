@@ -66,10 +66,11 @@
                 form{
                     font-size: var(--small);
                     display: block !important;
-                    width: 100vh !important;
+                    width: 100vw !important;
                     div{
                         label{
                             display: inline !important;
+                            font-size: var(--large);
                         }
                         input{
                             height: 4vh !important;
