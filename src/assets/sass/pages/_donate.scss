@@ -92,7 +92,7 @@
         div{
             width: 60%;
             .header{
-                margin-bottom: var(--large-margin);
+                margin-bottom: var(--medium-margin);
                 &__top{
                     height: 8vh !important;
                 }
@@ -103,6 +103,36 @@
                 }
                 
             }
+        }
+        
+    }
+    @include util.breakpoints(large){
+        padding: 4% 0;
+        div{
+            width: 100%;
+            .header{
+                margin-bottom: var(--small-margin);
+                &__top{
+                    height: 8vh !important;
+                }
+                // img{
+                // }
+                &__bottom {
+                    height: 12vh !important;
+                }   
+            }
+            .body{
+                .donations{
+                    padding: 4%;
+                    display: flex;
+                    .values_card{
+                        border-radius: 75% !important;
+                        width: 60%;
+                        height: 12vh;           
+                    }
+                }
+            }
+            
         }
         
     }

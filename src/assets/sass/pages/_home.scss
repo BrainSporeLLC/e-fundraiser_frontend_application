@@ -23,10 +23,10 @@
     h1 {
         span {
             display: block;
-            font-size: var(--large);
+            font-size: var(--small);
             font-weight: global.$bold;
             @include util.textshadow;
-            margin-bottom: var(--large-margin);
+            
         }
     }
 
@@ -57,13 +57,9 @@
 
         h1 {
             span {
-                display: block;
                 margin-left: 14vw !important;
                 margin-bottom: 0 !important;
                 text-align: end !important;
-                font-size: var(--large);
-                font-weight: global.$bold;
-                @include util.textshadow;
                 margin-bottom: var(--large-margin);
             }
         }
