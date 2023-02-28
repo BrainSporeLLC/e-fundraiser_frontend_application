@@ -28,15 +28,6 @@ const Donate = ({ onChange, onClick }) => {
           <img src={TempDonationImage} alt="image of of donation made" />
         </div>
         <div className="body">
-          <div className="donation-desc">
-            <h2>Donation title</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-              praesentium quis eaque. Iusto sint qui nam esse molestias, veniam
-              a nisi ad odit laboriosam officia. Nisi, iste? Voluptatum, odio
-              rerum.
-            </p>
-          </div>
           <div className="donations">
             {donations.map(({id, value}) => {
               return (
