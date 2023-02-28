@@ -1,7 +1,6 @@
 @use '../utils/' as util;
 @use '../global/' as global;
 .donate{
-    @include util.backgroundwithimage('');
     height: auto !important;
     overflow: hidden;
     padding: 16% 0;
