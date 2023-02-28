@@ -26,12 +26,12 @@
             }
             &__bottom {
                 position: absolute;
-                top: 90% !important;
+                top: 0 !important;
                 width: 100%;
                 display: block !important;
-                height: 6vh !important;
+                height: 4vh !important;
                 background-color: var(--nav-background-color);
-                text-align: center !important;
+                text-align: start !important;
                 padding-top: var(--padding-small) !important;
             }
             
