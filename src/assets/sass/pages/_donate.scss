@@ -48,6 +48,7 @@
             margin-bottom: var(--medium-margin);
             padding-inline: var(--padding-tiny);
             .donations{
+                background-color: yellow;
                 @include layout.twoequalscreens;
                 .values_card{
                     width: 56% !important;
@@ -66,11 +67,11 @@
                 form{
                     font-size: var(--small);
                     display: block !important;
-                    width: 100vw !important;
+                    width: 100% !important;
                     div{
                         label{
                             display: inline !important;
-                            font-size: var(--large);
+                            font-size: var(--small);
                         }
                         input{
                             height: 4vh !important;
