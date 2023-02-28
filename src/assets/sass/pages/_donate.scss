@@ -51,7 +51,6 @@
                 .values_card{
                     height: 4vh;
                     background-color: global.$button-secondary-color;
-                    @include layout.twoequalscreens;
                     button{
                         background-color: transparent !important;
                         border: none !important;
