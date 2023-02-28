@@ -36,4 +36,7 @@
             
         }
     }
+    @include util.breakpoints(medium){
+        
+    }
 }
