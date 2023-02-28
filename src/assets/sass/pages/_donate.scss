@@ -4,7 +4,7 @@
     @include util.backgroundwithimage('../images/medium-shot-women-posing-outdoors_23-2148959249.jpg');
     height: auto !important;
     overflow: hidden;
-    padding: 4% 0;
+    padding: 12% 0;
     div{
         width: 100%;
         margin-inline: auto !important;
@@ -26,7 +26,7 @@
             }
             &__bottom {
                 position: absolute;
-                top: -2rem !important;
+                top: -4rem !important;
                 width: 100%;
                 display: block !important;
                 height: 4vh !important;
