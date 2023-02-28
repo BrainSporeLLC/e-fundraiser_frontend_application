@@ -47,11 +47,12 @@
             margin-bottom: var(--medium-margin);
             padding-inline: var(--padding-tiny);
             .donations{
-
-                button{
-                    background-color: transparent !important;
-                    border: none !important;
-                    outline: none   !important;
+                .values_card{
+                    button{
+                        background-color: transparent !important;
+                        border: none !important;
+                        outline: none   !important;
+                    }
                 }
             }
         }
