@@ -18,7 +18,7 @@
                 width: 100%;
                 display: block !important;
                 height: 4vh !important;
-                background-color: var(--nav-background-color);
+                // background-color: var(--nav-background-color);
             }
             img{
                 width: 100% !important;
@@ -26,11 +26,11 @@
             }
             &__bottom {
                 position: absolute;
-                top: 0 !important;
+                top: -2rem !important;
                 width: 100%;
                 display: block !important;
                 height: 4vh !important;
-                background-color: var(--nav-background-color);
+                // background-color: var(--nav-background-color);
                 text-align: start !important;
                 padding-top: var(--padding-tiny) !important;
                 padding-bottom: var(--padding-micro) !important;
