@@ -21,8 +21,9 @@
                 // background-color: var(--nav-background-color);
             }
             img{
-                width: 100% !important;
+                width: 80% !important;
                 height: auto !important;
+                margin-inline: auto !important;
             }
             &__bottom {
                 position: absolute;
