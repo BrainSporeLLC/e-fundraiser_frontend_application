@@ -2,7 +2,7 @@
 @use '../global/' as global;
 .donate{
     @include util.backgroundwithimage('../images/medium-shot-women-posing-outdoors_23-2148959249.jpg');
-    height: 100vh;
+    height: auto !important;
     overflow: hidden;
     padding: 4% 0;
     div{
