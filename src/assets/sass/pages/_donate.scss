@@ -1,7 +1,7 @@
 @use '../utils/' as util;
 @use '../global/' as global;
 .donate{
-    @include util.backgroundwithimage('../images/medium-shot-women-posing-outdoors_23-2148959249.jpg');
+    @include util.backgroundwithimage('');
     height: auto !important;
     overflow: hidden;
     padding: 16% 0;
@@ -21,8 +21,9 @@
                 // background-color: var(--nav-background-color);
             }
             img{
-                width: 80% !important;
+                width: 100% !important;
                 height: auto !important;
+                display: block;
                 margin-inline: auto !important;
             }
             &__bottom {
