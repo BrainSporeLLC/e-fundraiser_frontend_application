@@ -50,9 +50,9 @@
             .donations{
                 @include layout.twoequalscreens;
                 .values_card{
-                    width: 70% !important;
-                    height: 16vh !important;
-                    background-color: global.$button-secondary-color;
+                    width: 56% !important;
+                    height: 12vh !important;
+                    background-color: global.$button-primary-color;
                     text-align: center;
                     border-radius: 50% !important;
                     button{
