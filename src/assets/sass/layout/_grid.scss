@@ -1,3 +1,5 @@
-@mixin twoscreens {
-    
+@mixin twoequalscreens {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: normal;
 }
