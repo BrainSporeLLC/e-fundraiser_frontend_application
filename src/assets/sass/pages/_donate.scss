@@ -47,7 +47,6 @@
             width: 100%;
             margin-bottom: var(--medium-margin);
             padding-inline: var(--padding-tiny);
-            @include layout.onescreen;
             .donations{
                 @include layout.twoequalscreens;
                 .values_card{
