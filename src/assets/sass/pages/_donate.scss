@@ -68,6 +68,9 @@
                     display: block !important;
                     width: 100% !important;
                     div{
+                        input{
+                            height: 4vh !important;
+                        }
                         button{
                             background-color: global.$button-primary-color !important;
                             outline: none !important;
