@@ -2,6 +2,7 @@ import React from 'react'
 import { NavLink, useLoaderData } from 'react-router-dom';
 
 export const loader = async (param) => {
+    const id = param.programId;
     const dummyDanotions = [
       {
         name: "Middle Children",
