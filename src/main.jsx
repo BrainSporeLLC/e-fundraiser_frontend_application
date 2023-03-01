@@ -45,7 +45,7 @@ const app = createBrowserRouter(
       />
       <Route
       element={<Donate/>}
-      path='/programs/donate'
+      path='/donate'
       />
     </Route>
   )
