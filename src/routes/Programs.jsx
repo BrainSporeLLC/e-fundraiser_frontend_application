@@ -7,6 +7,16 @@ export  const loader = async() => {
       name: 'Middle Children',
       desc: 'lorem ipsum dolor sit amet, consectetur adip',
       id: 1
+    },
+    {
+      name: 'Middle Children',
+      desc: 'lorem ipsum dolor sit amet, consectetur adip',
+      id: 1
+    },
+    {
+      name: 'Middle Children',
+      desc: 'lorem ipsum dolor sit amet, consectetur adip',
+      id: 1
     }
   ]
 
@@ -14,6 +24,7 @@ export  const loader = async() => {
 
 const  Programs = () => {
   const programs = useLoaderData();
+  console.log(programs)
   return (
     <div>
       <h1 className="heading__primary">
