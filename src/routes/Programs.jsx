@@ -19,7 +19,7 @@ export  const loader = async() => {
       id: 1
     }
   ]
-
+  return dummyDanotions;
 }
 
 const  Programs = () => {
