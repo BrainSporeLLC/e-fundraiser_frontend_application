@@ -20,7 +20,7 @@ export const loader = async (param) => {
         id: 3
       }
     ];
-    return dummyDanotions;
+    return dummyDanotions.find(dummy => dummy.id === id);
   };
 
 const SingleProgram = () => {
