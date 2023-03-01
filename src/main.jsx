@@ -36,7 +36,7 @@ const app = createBrowserRouter(
       />
       <Route
       element={<Login/>}
-      path='login'
+      path='programs/:programId'
       />
       <Route
       element={<Reads/>}
