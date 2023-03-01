@@ -29,7 +29,7 @@ const Programs = () => {
     <div>
       {programs.map(({ name, desc, id }) => {
         return (
-          <NavLink to={`programs/${id}`}>
+          <NavLink to={`/programs/${id}`}>
             <div key={id}>
               <h3>{name}</h3>
               <p>{desc}</p>
