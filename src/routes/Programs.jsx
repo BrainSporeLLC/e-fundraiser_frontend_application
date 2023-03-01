@@ -1,11 +1,12 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useLoaderData } from 'react-router-dom'
 
 export  const loader = async() => {
-  
+
 }
 
 const  Programs = () => {
+  const programs = useLoaderData();
   return (
     <div>
       <h1 className="heading__primary">
