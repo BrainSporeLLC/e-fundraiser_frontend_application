@@ -23,7 +23,17 @@ export const loader = async () => {
 
 const SingleProgram = () => {
   return (
-    <div>SingleProgram</div>
+    <div>
+      {programs.map(({ name, desc, id }) => {
+        return (
+            <div key={id}>
+              <h3>{name}</h3>
+              <p>{desc}</p>
+              <NavLink to="/donate">Donate</NavLink>
+            </div>
+        );
+      })}
+    </div>
   )
 }
 
