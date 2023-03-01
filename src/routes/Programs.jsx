@@ -28,10 +28,12 @@ const  Programs = () => {
   return (
     <div>
       {
-        programs.map(program =>{
+        programs.map((name, desc, id) =>{
           return (
-            <div>
-              <h3>{}</h3>
+            <div key={id}>
+              <h3>{name}</h3>
+              <p>{desc}</p>
+              <NavLink to="/donate">Donate</NavLink>
             </div>
           )
         })
