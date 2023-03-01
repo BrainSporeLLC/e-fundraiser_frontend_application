@@ -35,12 +35,12 @@ const app = createBrowserRouter(
       path='programs'
       />
       <Route
-      element={<Reads/>}
-      path='about_us'
-      />
-      <Route
       element={<Login/>}
       path='login'
+      />
+      <Route
+      element={<Reads/>}
+      path='about_us'
       />
       <Route
       element={<Donate/>}
