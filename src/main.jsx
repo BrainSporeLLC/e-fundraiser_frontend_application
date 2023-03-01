@@ -44,7 +44,6 @@ const app = createBrowserRouter(
       />
       <Route
       element={<Donate/>}
-      loader={}
       path='/donate'
       />
     </Route>
