@@ -23,7 +23,7 @@
     h1 {
         span {
             display: block;
-            font-size: var(--small);
+            font-size: var(--large);
             font-weight: global.$bold;
             @include util.textshadow;
             
