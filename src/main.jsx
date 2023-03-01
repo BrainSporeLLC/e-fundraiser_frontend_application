@@ -10,7 +10,7 @@ import {
 } from 'react-router-dom'
 import ErrorElementPAge from './pages/ErrorElementPAge'
 import RaiseFunds from './routes/RaiseFunds'
-import Testimonies from './routes/Testimonies'
+import Programs from './routes/Programs'
 import Reads from './routes/Reads'
 import Login from './routes/Login'
 import Homepage from './pages/Homepage'
@@ -28,7 +28,7 @@ const app = createBrowserRouter(
       index
       />
       <Route
-      element={<Testimonies/>}
+      element={<Programs/>}
       path='programs'
       />
       <Route
