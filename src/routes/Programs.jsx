@@ -11,12 +11,12 @@ export  const loader = async() => {
     {
       name: 'Middle Children',
       desc: 'lorem ipsum dolor sit amet, consectetur adip',
-      id: 1
+      id: 2
     },
     {
       name: 'Middle Children',
       desc: 'lorem ipsum dolor sit amet, consectetur adip',
-      id: 1
+      id: 3
     }
   ]
   return dummyDanotions;
