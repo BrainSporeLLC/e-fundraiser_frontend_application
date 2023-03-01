@@ -9,12 +9,11 @@ import {
   createRoutesFromElements 
 } from 'react-router-dom'
 import ErrorElementPAge from './pages/ErrorElementPAge'
-import RaiseFunds from './routes/RaiseFunds'
 import Programs, {
   loader as programsLoader
 } from './routes/Programs'
+import SingleProgram from './routes/SingleProgram'
 import Reads from './routes/Reads'
-import Login from './routes/Login'
 import Homepage from './pages/Homepage'
 import Donate from './routes/Donate'
 
@@ -35,7 +34,7 @@ const app = createBrowserRouter(
       path='programs'
       />
       <Route
-      element={<Login/>}
+      element={</>}
       path='programs/:programId'
       />
       <Route
