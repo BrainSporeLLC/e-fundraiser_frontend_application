@@ -34,7 +34,7 @@ const app = createBrowserRouter(
       path='programs'
       />
       <Route
-      element={</>}
+      element={<SingleProgram/>}
       path='programs/:programId'
       />
       <Route
