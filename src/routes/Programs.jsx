@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Testimonies() {
+const  Programs = () => {
   return (
     <div>
       <h1 className="heading__primary">
@@ -20,4 +20,4 @@ function Testimonies() {
   )
 }
 
-export default Testimonies
+export default Programs
