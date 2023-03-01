@@ -24,7 +24,6 @@ export const loader = async () => {
 
 const Programs = () => {
   const programs = useLoaderData();
-  console.log(programs);
   return (
     <div>
       {programs.map(({ name, desc, id }) => {

@@ -25,8 +25,10 @@ export const loader = async (param) => {
 
 const SingleProgram = () => {
   const programs = useLoaderData();
+  
   return (
     <div>
+        {programs}
       {/* {programs.map(({ name, desc, id }) => {
         return (
             <div key={id}>
