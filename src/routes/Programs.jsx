@@ -2,6 +2,9 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 const  Programs = () => {
+  const loader = async() => {
+    
+  }
   return (
     <div>
       <h1 className="heading__primary">
