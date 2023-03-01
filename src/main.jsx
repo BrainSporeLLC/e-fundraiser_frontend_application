@@ -13,7 +13,7 @@ import Programs, {
   loader as programsLoader
 } from './routes/Programs'
 import SingleProgram, {
-  loader as singleProgramLoader
+  // loader as singleProgramLoader
 } from './routes/SingleProgram'
 import Reads from './routes/Reads'
 import Homepage from './pages/Homepage'
@@ -37,7 +37,7 @@ const app = createBrowserRouter(
       />
       <Route
       element={<SingleProgram/>}
-      loader={singleProgramLoader}
+      // loader={singleProgramLoader}
       path='programs/:programId'
       />
       <Route
