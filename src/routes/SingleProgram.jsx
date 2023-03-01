@@ -1,4 +1,5 @@
 import React from 'react'
+import { useLoaderData } from 'react-router-dom';
 
 export const loader = async () => {
     const dummyDanotions = [
@@ -22,6 +23,7 @@ export const loader = async () => {
   };
 
 const SingleProgram = () => {
+  const programs = useLoaderData();
   return (
     <div>
       {programs.map(({ name, desc, id }) => {
