@@ -28,7 +28,7 @@ const  Programs = () => {
   return (
     <div>
       {
-        programs.map((name, desc, id) =>{
+        programs.map(({name, desc, id}) =>{
           return (
             <div key={id}>
               <h3>{name}</h3>
