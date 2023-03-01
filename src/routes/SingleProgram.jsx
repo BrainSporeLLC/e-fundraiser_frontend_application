@@ -25,19 +25,10 @@ export const loader = async (param) => {
 
 const SingleProgram = () => {
   const programs = useLoaderData();
-  console.log(programs);
+  console.log("programs");
   return (
     <div>
-        {programs}
-      {/* {programs.map(({ name, desc, id }) => {
-        return (
-            <div key={id}>
-              <h3>{name}</h3>
-              <p>{desc}</p>
-              <NavLink to="/donate">Donate</NavLink>
-            </div>
-        );
-      })} */}
+      Single program appears here
     </div>
   )
 }
