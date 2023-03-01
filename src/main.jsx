@@ -12,7 +12,9 @@ import ErrorElementPAge from './pages/ErrorElementPAge'
 import Programs, {
   loader as programsLoader
 } from './routes/Programs'
-import SingleProgram from './routes/SingleProgram'
+import SingleProgram, {
+  loader as singleProgramLoader
+} from './routes/SingleProgram'
 import Reads from './routes/Reads'
 import Homepage from './pages/Homepage'
 import Donate from './routes/Donate'
@@ -35,6 +37,7 @@ const app = createBrowserRouter(
       />
       <Route
       element={<SingleProgram/>}
+      loader={singleProgramLoader}
       path='programs/:programId'
       />
       <Route
