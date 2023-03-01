@@ -25,7 +25,7 @@ export const loader = async (param) => {
 
 const SingleProgram = () => {
   const programs = useLoaderData();
-  
+  console.log(programs);
   return (
     <div>
         {programs}
