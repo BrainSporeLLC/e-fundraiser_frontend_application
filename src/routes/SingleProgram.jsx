@@ -11,6 +11,7 @@ const SingleProgram = () => {
   return (
     <div>
       Single program appears here
+      <h1>{program}</h1>
     </div>
   )
 }
