@@ -1,5 +1,9 @@
 import React from 'react'
-import { NavLink, useLoaderData } from 'react-router-dom';
+import { NavLink, useLoaderData } from 'react-router-dom'
+
+export const loader = async() => {
+  
+}
 
 const SingleProgram = () => {
   return (
