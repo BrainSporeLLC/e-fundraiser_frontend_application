@@ -37,7 +37,7 @@ const app = createBrowserRouter(
       />
       <Route
       element={<SingleProgram/>}
-      // loader={singleProgramLoader}
+      loader={singleProgramLoader}
       path='programs/:programId'
       />
       <Route
