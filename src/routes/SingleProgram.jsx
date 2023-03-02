@@ -7,6 +7,7 @@ export const loader = async(params) => {
 }
 
 const SingleProgram = () => {
+  const program = useLoaderData();
   return (
     <div>
       Single program appears here
