@@ -29,10 +29,11 @@ const Programs = () => {
   const programs = useLoaderData();
   return (
     <div>
-      {programs.map(({ name, desc, id }) => {
+      {programs.map(({ name, desc, img, id }) => {
         return (
           <NavLink to={`/programs/${id}`} key={id}>
               <h3>{name}</h3>
+              <img src={img} alt="" srcset="" />
               <p>{desc}</p>
           </NavLink>
         );
