@@ -28,7 +28,6 @@ export const loader = async({params}) => {
 
 const SingleProgram = () => {
   const program = useLoaderData();
-  console.log(program)
   return (
     <div key={program.id}>
       <h1>
