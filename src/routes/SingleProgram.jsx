@@ -21,7 +21,7 @@ export const loader = async({params}) => {
     }
   ];
   const selectedDonation = dummyDanotions.find((program) => {
-    
+    return program.id === programId;
   })
   return programId;
 }
