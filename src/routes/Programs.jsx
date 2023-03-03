@@ -33,7 +33,7 @@ const Programs = () => {
         return (
           <NavLink to={`/programs/${id}`} key={id}>
               <h3>{name}</h3>
-              <img src={img} alt="" srcset="" />
+              <img src={img} alt="donation image" />
               <p>{desc}</p>
           </NavLink>
         );
