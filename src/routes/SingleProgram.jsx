@@ -28,10 +28,11 @@ export const loader = async({params}) => {
 
 const SingleProgram = () => {
   const program = useLoaderData();
+  console.log(program)
   return (
     <div>
       Single program appears here
-      <h1>{program}</h1>
+      {/* <h1>{program}</h1> */}
     </div>
   )
 }
