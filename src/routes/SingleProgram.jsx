@@ -37,6 +37,7 @@ const SingleProgram = () => {
       <p>
         {program.desc}
       </p>
+      <NavLink to={`/donate`}>Donate</NavLink>
     </div>
   )
 }
