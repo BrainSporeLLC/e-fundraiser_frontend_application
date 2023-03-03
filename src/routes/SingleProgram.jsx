@@ -7,16 +7,19 @@ export const loader = async({params}) => {
     {
       name: "Middle Children",
       desc: "lorem ipsum dolor sit amet, consectetur adip",
+      img: "https://images.hivisasa.com/1200/zkAaq11LgUCapture.PNG",
       id: 1
     },
     {
       name: "Middle Children",
       desc: "lorem ipsum dolor sit amet, consectetur adip",
+      img: "https://thumbs.dreamstime.com/b/girl-taking-donation-box-full-stuff-donate-little-72620722.jpg",
       id: 2
     },
     {
       name: "Middle Children",
       desc: "lorem ipsum dolor sit amet, consectetur adip",
+      img: "https://c8.alamy.com/comp/2HNNAJK/volunteer-woman-give-food-donation-to-homeless-person-in-street-caring-girl-deliver-donate-charity-nutrition-eating-package-to-people-in-need-charit-2HNNAJK.jpg",
       id: 3
     }
   ];
