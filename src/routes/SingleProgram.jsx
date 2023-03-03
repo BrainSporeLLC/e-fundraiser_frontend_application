@@ -35,7 +35,7 @@ const SingleProgram = () => {
         {program.name}
       </h1>
       <p>
-        {}
+        {program.desc}
       </p>
     </div>
   )
