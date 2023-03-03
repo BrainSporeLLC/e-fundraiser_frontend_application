@@ -20,6 +20,9 @@ export const loader = async({params}) => {
       id: 3
     }
   ];
+  const selectedDonation = dummyDanotions.find((program) => {
+    
+  })
   return programId;
 }
 
