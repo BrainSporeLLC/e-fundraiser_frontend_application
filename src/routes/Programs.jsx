@@ -6,7 +6,7 @@ export const loader = async () => {
     {
       name: "Middle Children",
       desc: "lorem ipsum dolor sit amet, consectetur adip",
-      img: "",
+      img: "https://images.hivisasa.com/1200/zkAaq11LgUCapture.PNG",
       id: 1
     },
     {
