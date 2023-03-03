@@ -21,7 +21,7 @@ export const loader = async({params}) => {
     }
   ];
   const selectedDonation = dummyDanotions.filter((program) => {
-    return program.id === programId;
+    return program.id === "3";
   })
   return selectedDonation;
 }
