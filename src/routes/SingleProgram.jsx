@@ -33,6 +33,7 @@ const SingleProgram = () => {
       <h1>
         {program.name}
       </h1>
+      <img src={program.img} alt="donation image" />
       <p>
         {program.desc}
       </p>
