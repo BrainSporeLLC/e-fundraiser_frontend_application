@@ -30,7 +30,7 @@ const SingleProgram = () => {
   const program = useLoaderData();
   console.log(program)
   return (
-    <div>
+    <div key={program.id}>
       <h1>
         {program.name}
       </h1>
