@@ -20,7 +20,7 @@ export const loader = async({params}) => {
       id: 3
     }
   ];
-  const selectedDonation = dummyDanotions.filter((p) => {
+  const selectedDonation = dummyDanotions.find((p) => {
     return p.id === Number(programId);
   })
   return selectedDonation;
@@ -31,8 +31,12 @@ const SingleProgram = () => {
   console.log(program)
   return (
     <div>
-      Single program appears here
-      {/* <h1>{program}</h1> */}
+      <h1>
+        {program.name}
+      </h1>
+      <p>
+        {}
+      </p>
     </div>
   )
 }
