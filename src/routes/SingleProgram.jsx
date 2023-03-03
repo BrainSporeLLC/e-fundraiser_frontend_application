@@ -3,6 +3,23 @@ import { NavLink, useLoaderData } from 'react-router-dom'
 
 export const loader = async({params}) => {
   const programId = params.programId;
+  const dummyDanotions = [
+    {
+      name: "Middle Children",
+      desc: "lorem ipsum dolor sit amet, consectetur adip",
+      id: 1
+    },
+    {
+      name: "Middle Children",
+      desc: "lorem ipsum dolor sit amet, consectetur adip",
+      id: 2
+    },
+    {
+      name: "Middle Children",
+      desc: "lorem ipsum dolor sit amet, consectetur adip",
+      id: 3
+    }
+  ];
   return programId;
 }
 
