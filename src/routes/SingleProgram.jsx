@@ -20,10 +20,10 @@ export const loader = async({params}) => {
       id: 3
     }
   ];
-  // const selectedDonation = dummyDanotions.filter((p) => {
-  //   return p.id === ;
-  // })
-  return programId;
+  const selectedDonation = dummyDanotions.filter((p) => {
+    return p.id === Number(programId);
+  })
+  return selectedDonation;
 }
 
 const SingleProgram = () => {
